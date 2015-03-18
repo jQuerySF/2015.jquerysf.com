@@ -1,0 +1,60 @@
+//- Venue
+
+.venue
+  min-height: 450px
+  padding: 0
+  position: relative
+  background: black
+  text-align: left
+
+  .venue-info
+    padding: 40px
+    position: relative
+    color: white
+    z-index: 2
+
+  .venue-marker
+    .venue-name
+      margin-bottom: 0
+      font-size: 16px
+      font-weight: bold
+    .venue-address
+      margin-bottom: 5px
+      font-size: 14px
+
+  // Single column
+  @media screen and (max-width: $small-width)
+
+    #map-canvas
+      width: 100%
+      min-height: 300px
+
+    .venue-info
+      background: url(../images/regency-ballroom.jpg) no-repeat center center
+      background-size: cover
+
+  // Two columns
+  @media screen and (min-width: $small-width + 1px)
+
+    #map-canvas
+      width: 50%
+      height: 100%
+      position: absolute
+      top: 0
+      left: 0
+
+    .venue-photo
+      width: 50%
+      height: 100%
+      position: absolute
+      top: 0
+      right: 0
+      z-index: 1
+      background: url(../images/regency-ballroom.jpg) no-repeat center center
+      background-size: cover
+
+    .venue-info
+      width: 50%
+      float: right
+      position: relative
+      z-index: 2

@@ -1,0 +1,30 @@
+// Team section
+
+.team
+
+  .team-member
+    margin: 15px 0 0
+    padding: 15px
+
+    .avatar
+      border-radius: 50%
+
+  // Two columns wide
+  @media screen and (max-width: $small-width)
+    .team-member
+      width: 50%
+
+  // Three columns wide
+  @media screen and (min-width: $small-width + 1px) and (max-width: $medium-width)
+    .team-member
+      width: 33.33%
+
+  // Five columns wide
+  @media screen and (min-width: $medium-width + 1px) and (max-width: $container-width)
+    .team-member
+      width: 20%
+
+  // Six columns wide
+  @media screen and (min-width: $container-width + 1px)
+    .team-member
+      width: 16.66%

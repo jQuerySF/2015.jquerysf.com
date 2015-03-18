@@ -1,0 +1,42 @@
+//- Sponsors
+
+.sponsors
+  background: $grey-drk
+  color: white
+
+  .container
+    max-width: 750px
+    margin-top: 30px
+
+  .sponsor
+    margin: 10px
+    margin-bottom: 0
+    display: inline-block
+    background: black(.2)
+    border-radius: 3px
+
+    &:hover
+      opacity: 1
+      background: black(.4)
+
+    img
+      width: auto
+      display: block
+
+  // Smaller sponsor logos
+  @media screen and (max-width: $medium-width)
+
+    .sponsor
+      padding: 10px
+
+      img
+        height: 20px
+
+  // Bigger sponsor logos
+  @media screen and (min-width: $medium-width + 1px)
+
+    .sponsor
+      padding: 20px
+
+      img
+        height: 30px

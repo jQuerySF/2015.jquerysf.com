@@ -1,0 +1,35 @@
+// Values section
+
+.values
+  padding: 0
+  background: linear-gradient(to right, $teal 50%,
+                                          $blue 50%)
+  text-align: left
+  color: white
+
+  .column
+    padding: 30px
+
+  // Single column, each column with a background color
+  @media screen and (max-width: $small-width)
+
+    .column
+      &:first-child
+        background: $teal
+      &:nth-child(2)
+        background: $grey-drk
+      &:last-child
+        background: $blue
+
+  // Three columns wide, container sets background colors
+  @media screen and (min-width: $small-width + 1px)
+
+    .container
+      background: linear-gradient(to right, $teal 33.33%,
+                                            $grey-drk 33.33%,
+                                            $grey-drk 66.66%,
+                                            $blue 66.66%)
+
+    .column
+      width: 33.33%
+      padding-bottom: 50px

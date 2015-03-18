@@ -1,0 +1,296 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='')
+
+    title JQuerySF 2015
+
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet')
+
+    link(rel='stylesheet', href='css/main.css')
+
+    script(src='https://maps.googleapis.com/maps/api/js')
+    script(src='js/map.js')
+
+  body
+
+    header.hero
+
+      nav.nav-main.cf
+        a.home(href='/') JQuerySF
+        a(href='#events') Events
+        a(href='#tickets') Tickets
+        a(href='#accessibility') Accessibility
+        a(href='#coc') Code of Conduct
+        a(href='#sponsors') Sponsors
+        a(href='#team') Team
+
+      .container
+        h1 JQuerySF
+        h2 a new type of conference
+        p.date June 22-23, 2015
+        p.location San Francisco, California
+
+    // Conference values
+    section.values
+      .container.cf
+        .column
+          h2 Utility
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor dictum ante, et pellentesque diam viverra ut. Donec tincidunt elementum feugiat.
+        .column
+          h2 Diversity
+          p Fusce varius metus eget enim placerat iaculis eget eget ligula. Nulla sed nunc ligula. Cras eget est posuere, faucibus elit ut, dictum felis.
+        .column
+          h2 Relevancy
+          p Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus semper urna in facilisis hendrerit.
+
+    // Talks section
+    section#events.talks
+      h2 Talks
+      p 6 Total Sessions, 18 talks, 2 Keynotes
+      .container.cf
+        .session.column.cf
+          h3 Session 1: Title of session
+          .speaker.column
+            img.avatar(src='images/temp/avatar1.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+          .speaker.column
+            img.avatar(src='images/temp/avatar2.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+          .speaker.column
+            img.avatar(src='images/temp/avatar3.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+        .session.column.cf
+          h3 Session 2: Title of session
+          .speaker.column
+            img.avatar(src='images/temp/avatar4.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+          .speaker.column
+            img.avatar(src='images/temp/avatar5.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+          .speaker.column
+            img.avatar(src='images/temp/avatar6.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+        .session.column.cf
+          h3 Session 3: Title of session
+          .speaker.column
+            img.avatar(src='images/temp/avatar1.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+          .speaker.column
+            img.avatar(src='images/temp/avatar2.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+          .speaker.column
+            img.avatar(src='images/temp/avatar3.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+        .session.column.cf
+          h3 Session 4: Title of session
+          .speaker.column
+            img.avatar(src='images/temp/avatar4.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+          .speaker.column
+            img.avatar(src='images/temp/avatar5.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+          .speaker.column
+            img.avatar(src='images/temp/avatar6.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+        .session.column.cf
+          h3 Session 5: Title of session
+          .speaker.column
+            img.avatar(src='images/temp/avatar1.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+          .speaker.column
+            img.avatar(src='images/temp/avatar2.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+          .speaker.column
+            img.avatar(src='images/temp/avatar3.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+        .session.column.cf
+          h3 Session 6: Title of session
+          .speaker.column
+            img.avatar(src='images/temp/avatar4.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+          .speaker.column
+            img.avatar(src='images/temp/avatar5.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+          .speaker.column
+            img.avatar(src='images/temp/avatar6.jpg' alt='')
+            p.avatar-name First LastName
+            a.avatar-twitter(href='') @firstlastname
+
+    // Workshops section
+    section.workshops
+      h2 Workshops
+      p 4 workshops, 2 per day, 3 hours each
+      .container.cf
+        .workshop.column
+          h3 Workshop Title
+          p.workshop-description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor dictum ante, et pellentesque diam viverra ut. Donec tincidunt elementum feugiat.
+        .workshop.column
+          h3 Workshop Title
+          p.workshop-description Fusce varius metus eget enim placerat iaculis eget eget ligula. Nulla sed nunc ligula. Cras eget est posuere, faucibus elit ut, dictum felis.
+        .workshop.column
+          h3 Workshop Title
+          p.workshop-description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor dictum ante, et pellentesque diam viverra ut. Donec tincidunt elementum feugiat.
+        .workshop.column
+          h3 Workshop Title
+          p.workshop-description Fusce varius metus eget enim placerat iaculis eget eget ligula. Nulla sed nunc ligula. Cras eget est posuere, faucibus elit ut, dictum felis.
+
+    // Bazaar + Gallery section
+    section.galleries
+      .container.cf
+        .column
+          h2 Open Source Bazaar
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor dictum ante, et pellentesque diam viverra ut. Donec tincidunt elementum feugiat.
+          p Fusce varius metus eget enim placerat iaculis eget eget ligula. Nulla sed nunc ligula. Cras eget est posuere, faucibus elit ut, dictum felis.
+          a.btn.btn-light(href='') Apply for a booth
+        .column
+          h2 Generative Art Gallery
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor dictum ante, et pellentesque diam viverra ut. Donec tincidunt elementum feugiat.
+          p Fusce varius metus eget enim placerat iaculis eget eget ligula. Nulla sed nunc ligula. Cras eget est posuere, faucibus elit ut, dictum felis.
+          a.btn.btn-light(href='') Submit a project
+
+    // Tickets
+    section#tickets.tickets
+      h2 Tickets
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor dictum ante, et pellentesque diam viverra ut. Donec tincidunt elementum feugiat.
+      .container.cf
+        h3 Full event tickets
+        .ticket-list
+          .ticket.cf.sold-out
+            p Early Bird
+            a.btn.btn-primary.btn-small(href='') $150
+          .ticket.cf
+            p General Admission
+            a.btn.btn-primary.btn-small(href='') $300
+          .ticket.cf
+            p Scholarship
+            a.btn.btn-primary.btn-small(href='') Free
+        h3 Perks only tickets
+        .ticket-list
+          .ticket.cf
+            p After party only
+            a.btn.btn-primary.btn-small(href='') $20
+          .ticket.cf
+            p FamousTV access only
+            a.btn.btn-primary.btn-small(href='') $20
+
+    // Venue section
+    section.venue
+      #map-canvas
+      .venue-photo
+      .container.cf
+        .venue-info
+          h2 Venue
+          h3 The Regency Ballroom
+          address
+            span 1300 Van Ness Avenue
+            span San Francisco, CA
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor dictum ante, et pellentesque diam viverra ut.
+          p Donec tincidunt elementum feugiat. Nam porttitor dictum ante, et pellentesque diam viverra ut. Donec tincidunt elementum feugiat.
+
+    // Accessibility section
+    section#accessibility.coc
+      h2 Accessibility
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor dictum ante, et pellentesque diam viverra ut. Donec tincidunt elementum feugiat.
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor dictum ante, et pellentesque diam viverra ut. Donec tincidunt elementum feugiat.
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor dictum ante, et pellentesque diam viverra ut. Donec tincidunt elementum feugiat.
+      ul
+        li Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        li Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        li Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        li Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        li Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      p Fusce varius metus eget enim placerat iaculis eget eget ligula. Nulla sed nunc ligula. Cras eget est posuere, faucibus elit ut, dictum felis.
+      hr
+      h2#coc Code of Conduct
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor dictum ante, et pellentesque diam viverra ut. Donec tincidunt elementum feugiat.
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor dictum ante, et pellentesque diam viverra ut. Donec tincidunt elementum feugiat.
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor dictum ante, et pellentesque diam viverra ut. Donec tincidunt elementum feugiat.
+
+    // Sponsors section
+    section#sponsors.sponsors
+      h2 Sponsors
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      .container.cf
+        a.sponsor(href='')
+          img(src='images/temp/logo1.svg' alt='')
+        a.sponsor(href='')
+          img(src='images/temp/logo2.svg' alt='')
+        a.sponsor(href='')
+          img(src='images/temp/logo3.svg' alt='')
+        a.sponsor(href='')
+          img(src='images/temp/logo1.svg' alt='')
+        a.sponsor(href='')
+          img(src='images/temp/logo2.svg' alt='')
+        a.sponsor(href='')
+          img(src='images/temp/logo1.svg' alt='')
+
+
+    // Team section
+    section#team.team
+      h2 Organizers & Ambassadors
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor dictum ante.
+      .container.cf
+        .team-member.column
+          img.avatar(src='images/temp/avatar1.jpg' alt='')
+          p.avatar-name First LastName
+          a.avatar-twitter(href='') @firstlastname
+        .team-member.column
+          img.avatar(src='images/temp/avatar2.jpg' alt='')
+          p.avatar-name First LastName
+          a.avatar-twitter(href='') @firstlastname
+        .team-member.column
+          img.avatar(src='images/temp/avatar3.jpg' alt='')
+          p.avatar-name First LastName
+          a.avatar-twitter(href='') @firstlastname
+        .team-member.column
+          img.avatar(src='images/temp/avatar4.jpg' alt='')
+          p.avatar-name First LastName
+          a.avatar-twitter(href='') @firstlastname
+        .team-member.column
+          img.avatar(src='images/temp/avatar5.jpg' alt='')
+          p.avatar-name First LastName
+          a.avatar-twitter(href='') @firstlastname
+        .team-member.column
+          img.avatar(src='images/temp/avatar1.jpg' alt='')
+          p.avatar-name First LastName
+          a.avatar-twitter(href='') @firstlastname
+        .team-member.column
+          img.avatar(src='images/temp/avatar2.jpg' alt='')
+          p.avatar-name First LastName
+          a.avatar-twitter(href='') @firstlastname
+        .team-member.column
+          img.avatar(src='images/temp/avatar3.jpg' alt='')
+          p.avatar-name First LastName
+          a.avatar-twitter(href='') @firstlastname
+        .team-member.column
+          img.avatar(src='images/temp/avatar4.jpg' alt='')
+          p.avatar-name First LastName
+          a.avatar-twitter(href='') @firstlastname
+        .team-member.column
+          img.avatar(src='images/temp/avatar5.jpg' alt='')
+          p.avatar-name First LastName
+          a.avatar-twitter(href='') @firstlastname
+
+    footer.site-footer

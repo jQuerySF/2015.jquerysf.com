@@ -1,0 +1,53 @@
+// Talks section
+
+.talks
+
+  h3
+    padding: 5px 15px
+    background: $grey-light
+    text-align: left
+
+  .session
+    width: 100%
+
+  // Single column, avatar at left
+  @media screen and (max-width: $small-width)
+
+    .session
+      margin-top: 30px
+
+    .speaker
+      width: 100%
+      padding: 10px 15px
+      text-align: left
+
+    .avatar
+      width: 100px
+      margin-right: 15px
+      float: left
+      border-radius: 3px
+
+  // One session wide, three speakers wide, avatar above
+  @media screen and (min-width: $small-width + 1px)
+
+    .session
+      margin: 30px 0 20px
+
+    .speaker
+      width: 33.33%
+      padding: 20px
+
+    .avatar
+      margin-bottom: 5px
+      border-radius: 50%
+
+  // Two sessions wide
+  @media screen and (min-width: $medium-width)
+
+    .session
+      width: 48%
+
+      &:nth-child(odd)
+        margin-right: 2%
+      &:nth-child(even)
+        margin-left: 2%

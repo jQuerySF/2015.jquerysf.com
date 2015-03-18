@@ -1,0 +1,41 @@
+// Tickets section
+
+.tickets
+
+  .container
+    max-width: 600px
+    text-align: left
+
+  h3
+    margin-top: 20px
+    padding: 5px 15px
+    background: $grey-light
+    text-align: left
+
+  .ticket
+    padding-left: 15px
+
+    &:not(:last-child)
+      border-bottom: $grey-border
+
+    p
+      margin-top: 20px
+      float: left
+
+    .btn
+      float: right
+
+    // Sold out styling
+    &.sold-out
+      p
+        opacity: .4
+
+        &:after
+          content: ' - Sold out'
+
+      .btn
+        background: #ccc
+
+        &:hover
+          cursor: default
+          opacity: 1
