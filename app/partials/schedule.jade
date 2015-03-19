@@ -1,0 +1,68 @@
+mixin event(time, title)
+  .slot
+    span.time= time
+    span.title= title
+
+mixin break(time, type)
+  .slot.break
+    span.time= time
+    span.type= type
+
+mixin talk(time, title, href, speaker)
+  .slot.talk
+    span.time= time
+    span.title= title
+      = ' - '
+      a.speaker(href=href)= speaker
+
+section#schedule.schedule
+  h2 Schedule
+  p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  .container.cf
+    .column
+      h3 Day 1
+      +event('8:00am', 'Registration opens')
+      +event('9:00am', 'Opening Remarks')
+      +talk('9:20am', 'Keynote', 'https://twitter.com/jquerysf', 'First Lastname')
+      +break('10:10am', 'BREAK')
+      +talk('10:30am', 'Session 1', 'https://twitter.com/jquerysf', 'First Lastname')
+      +talk('10:50am', 'Session 1', 'https://twitter.com/jquerysf', 'First Lastname')
+      +talk('11:10am', 'Session 1', 'https://twitter.com/jquerysf', 'First Lastname')
+      +event('11:30am', 'Session 1 - Speaker Panel')
+      +break('11:50am', 'LUNCH')
+      +event('12:00pm', 'Open Source Bazaar')
+      +talk('2:30pm', 'Session 2', 'https://twitter.com/jquerysf', 'First Lastname')
+      +talk('2:50pm', 'Session 2', 'https://twitter.com/jquerysf', 'First Lastname')
+      +talk('3:10pm', 'Session 2', 'https://twitter.com/jquerysf', 'First Lastname')
+      +event('3:30pm', 'Session 2 - Speaker Panel')
+      +break('3:50pm', 'BREAK')
+      +talk('4:20pm', 'Session 3', 'https://twitter.com/jquerysf', 'First Lastname')
+      +talk('4:40pm', 'Session 3', 'https://twitter.com/jquerysf', 'First Lastname')
+      +talk('5:00pm', 'Session 3', 'https://twitter.com/jquerysf', 'First Lastname')
+      +event('5:20pm', 'Session 3 - Speaker Panel')
+      +event('5:40pm', 'Closing Remarks')
+      +event('6:00pm', 'End of Day 1')
+      +event('7:00pm', 'After Party')
+    .column
+      h3 Day 2
+      +event('8:00am', 'Registration opens')
+      +event('9:00am', 'Opening Remarks')
+      +talk('9:20am', 'Keynote', 'https://twitter.com/jquerysf', 'First Lastname')
+      +break('10:10am', 'BREAK')
+      +talk('10:30am', 'Session 4', 'https://twitter.com/jquerysf', 'First Lastname')
+      +talk('10:50am', 'Session 4', 'https://twitter.com/jquerysf', 'First Lastname')
+      +talk('11:10am', 'Session 4', 'https://twitter.com/jquerysf', 'First Lastname')
+      +event('11:30am', 'Session 4 - Speaker Panel')
+      +break('11:50am', 'LUNCH')
+      +event('12:00pm', 'Generative Art Gallery')
+      +talk('2:30pm', 'Session 5', 'https://twitter.com/jquerysf', 'First Lastname')
+      +talk('2:50pm', 'Session 5', 'https://twitter.com/jquerysf', 'First Lastname')
+      +talk('3:10pm', 'Session 5', 'https://twitter.com/jquerysf', 'First Lastname')
+      +event('3:30pm', 'Session 5 - Speaker Panel')
+      +break('3:50pm', 'BREAK')
+      +talk('4:20pm', 'Session 6', 'https://twitter.com/jquerysf', 'First Lastname')
+      +talk('4:40pm', 'Session 6', 'https://twitter.com/jquerysf', 'First Lastname')
+      +talk('5:00pm', 'Session 6', 'https://twitter.com/jquerysf', 'First Lastname')
+      +event('5:20pm', 'Session 6 - Speaker Panel')
+      +event('5:40pm', 'Closing Remarks')
+      +event('6:00pm', 'End of Day 2')

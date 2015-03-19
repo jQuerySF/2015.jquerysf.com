@@ -1,0 +1,37 @@
+// Schedule section
+
+.schedule
+
+  .container
+    text-align: left
+
+  h3
+    margin-top: 20px
+    padding: 5px 15px
+    background: $grey-light
+    text-align: left
+
+  .slot
+    padding: 10px
+
+    &:not(:last-child)
+      border-bottom: $grey-border
+
+  .time
+    width: 150px
+    display: inline-block
+
+  @media screen and (max-width: $small-width)
+
+    .column
+      width: 100%
+
+  @media screen and (min-width: $small-width + 1px)
+
+    .column
+      width: 48%
+
+      &:nth-child(odd)
+        margin-right: 2%
+      &:nth-child(even)
+        margin-left: 2%

@@ -457,6 +457,41 @@ address span {
     width: 50%;
   }
 }
+.schedule .container {
+  text-align: left;
+}
+.schedule h3 {
+  margin-top: 20px;
+  padding: 5px 15px;
+  background: #f7f7f7;
+  text-align: left;
+}
+.schedule .slot {
+  padding: 10px;
+}
+.schedule .slot:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+.schedule .time {
+  width: 150px;
+  display: inline-block;
+}
+@media screen and (max-width: 600px) {
+  .schedule .column {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 601px) {
+  .schedule .column {
+    width: 48%;
+  }
+  .schedule .column:nth-child(odd) {
+    margin-right: 2%;
+  }
+  .schedule .column:nth-child(even) {
+    margin-left: 2%;
+  }
+}
 .tickets .container {
   text-align: left;
 }
