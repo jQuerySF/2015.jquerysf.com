@@ -27,6 +27,7 @@
 
   .container
     margin-top: 60px
+    position: relative
 
   .date
     margin-top: 50px
@@ -34,3 +35,16 @@
 
   .location
     font-size: 24px
+
+  @media screen and (max-width: $small-width)
+
+    min-height: 500px
+
+    h1
+      font-size: 40px
+    h2
+      font-size: 20px
+    .date
+      font-size: 24px
+    .location
+      font-size: 16px

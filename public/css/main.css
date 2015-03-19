@@ -185,7 +185,7 @@ section {
 section > h2,
 section > p,
 section > ul {
-  max-width: 550px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -229,6 +229,10 @@ address span {
 }
 .btn.btn-primary {
   background: #1695a3;
+}
+.btn.btn-primary:hover {
+  background: #137f8b;
+  opacity: 1;
 }
 .btn.btn-small {
   margin: 10px 0;
@@ -274,6 +278,7 @@ address span {
 }
 .hero .container {
   margin-top: 60px;
+  position: relative;
 }
 .hero .date {
   margin-top: 50px;
@@ -281,6 +286,23 @@ address span {
 }
 .hero .location {
   font-size: 24px;
+}
+@media screen and (max-width: 600px) {
+  .hero {
+    min-height: 500px;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero h2 {
+    font-size: 20px;
+  }
+  .hero .date {
+    font-size: 24px;
+  }
+  .hero .location {
+    font-size: 16px;
+  }
 }
 .values {
   padding: 0;
@@ -540,7 +562,7 @@ address span {
   color: white;
 }
 .sponsors .container {
-  max-width: 750px;
+  max-width: 900px;
   margin-top: 30px;
 }
 .sponsors .sponsor {
