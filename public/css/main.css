@@ -189,6 +189,28 @@ section > ul {
   margin-left: auto;
   margin-right: auto;
 }
+.dual-column h3 {
+  margin-top: 20px;
+  padding: 5px 15px;
+  background: #f7f7f7;
+  text-align: left;
+}
+@media screen and (max-width: 600px) {
+  .dual-column > .column {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 601px) {
+  .dual-column > .column {
+    width: 48%;
+  }
+  .dual-column > .column:nth-child(odd) {
+    margin-right: 2%;
+  }
+  .dual-column > .column:nth-child(even) {
+    margin-left: 2%;
+  }
+}
 hr {
   width: 80%;
   max-width: 400px;
@@ -346,18 +368,11 @@ address span {
   background: #f7f7f7;
   font-size: 12px;
 }
-.talks h3 {
-  padding: 5px 15px;
-  background: #f7f7f7;
-}
 .talks .keynotes {
   max-width: 500px;
   margin: 0 auto;
 }
-.talks .session {
-  width: 100%;
-}
-.talks .session h3 {
+.talks .keynotes h3 {
   text-align: left;
 }
 @media screen and (max-width: 600px) {
@@ -400,15 +415,6 @@ address span {
 @media screen and (min-width: 900px) {
   .talks .keynotes {
     margin-top: 50px;
-  }
-  .talks .session {
-    width: 48%;
-  }
-  .talks .session:nth-child(odd) {
-    margin-right: 2%;
-  }
-  .talks .session:nth-child(even) {
-    margin-left: 2%;
   }
 }
 .workshops {
@@ -460,12 +466,6 @@ address span {
 .schedule .container {
   text-align: left;
 }
-.schedule h3 {
-  margin-top: 20px;
-  padding: 5px 15px;
-  background: #f7f7f7;
-  text-align: left;
-}
 .schedule .slot {
   padding: 10px;
 }
@@ -476,29 +476,7 @@ address span {
   width: 150px;
   display: inline-block;
 }
-@media screen and (max-width: 600px) {
-  .schedule .column {
-    width: 100%;
-  }
-}
-@media screen and (min-width: 601px) {
-  .schedule .column {
-    width: 48%;
-  }
-  .schedule .column:nth-child(odd) {
-    margin-right: 2%;
-  }
-  .schedule .column:nth-child(even) {
-    margin-left: 2%;
-  }
-}
 .tickets .container {
-  text-align: left;
-}
-.tickets h3 {
-  margin-top: 20px;
-  padding: 5px 15px;
-  background: #f7f7f7;
   text-align: left;
 }
 .tickets .ticket {
@@ -527,22 +505,6 @@ address span {
 .tickets .ticket.sold-out .btn:hover {
   cursor: default;
   opacity: 1;
-}
-@media screen and (max-width: 600px) {
-  .tickets .column {
-    width: 100%;
-  }
-}
-@media screen and (min-width: 601px) {
-  .tickets .column {
-    width: 48%;
-  }
-  .tickets .column:nth-child(odd) {
-    margin-right: 2%;
-  }
-  .tickets .column:nth-child(even) {
-    margin-left: 2%;
-  }
 }
 .venue {
   min-height: 450px;
