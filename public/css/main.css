@@ -233,8 +233,6 @@ address span {
 .btn.btn-small {
   margin: 10px 0;
   padding: 8px 15px 10px;
-  border: 1px solid rgba(255,255,255,0.7);
-  border-radius: 4px;
 }
 .avatar {
   width: 100%;
