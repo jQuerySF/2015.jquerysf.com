@@ -309,13 +309,20 @@ address span {
 .talks h3 {
   padding: 5px 15px;
   background: #f7f7f7;
-  text-align: left;
+}
+.talks .keynotes {
+  max-width: 450px;
+  margin: 0 auto;
 }
 .talks .session {
   width: 100%;
 }
+.talks .session h3 {
+  text-align: left;
+}
 @media screen and (max-width: 600px) {
-  .talks .session {
+  .talks .session,
+  .talks .keynotes {
     margin-top: 30px;
   }
   .talks .speaker {
@@ -331,11 +338,18 @@ address span {
   }
 }
 @media screen and (min-width: 601px) {
+  .talks .keynotes,
   .talks .session {
-    margin: 30px 0 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .talks .keynotes .speaker {
+    width: 50%;
+  }
+  .talks .session .speaker {
+    width: 33.33%;
   }
   .talks .speaker {
-    width: 33.33%;
     padding: 20px;
   }
   .talks .avatar {
@@ -344,6 +358,9 @@ address span {
   }
 }
 @media screen and (min-width: 900px) {
+  .talks .keynotes {
+    margin-top: 50px;
+  }
   .talks .session {
     width: 48%;
   }
@@ -401,7 +418,6 @@ address span {
   }
 }
 .tickets .container {
-  max-width: 600px;
   text-align: left;
 }
 .tickets h3 {
@@ -435,6 +451,22 @@ address span {
 .tickets .ticket.sold-out .btn:hover {
   cursor: default;
   opacity: 1;
+}
+@media screen and (max-width: 600px) {
+  .tickets .column {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 601px) {
+  .tickets .column {
+    width: 48%;
+  }
+  .tickets .column:nth-child(odd) {
+    margin-right: 2%;
+  }
+  .tickets .column:nth-child(even) {
+    margin-left: 2%;
+  }
 }
 .venue {
   min-height: 450px;
