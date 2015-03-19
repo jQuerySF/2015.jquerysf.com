@@ -139,7 +139,7 @@ body {
   font-size: 16px;
   line-height: 1.4;
   text-align: center;
-  color: #444;
+  color: #333;
 }
 h1,
 h2,
@@ -222,6 +222,7 @@ address span {
   font-weight: 700;
   text-transform: uppercase;
   color: white;
+  box-shadow: 0 0 3px rgba(0,0,0,0.1), 0 3px 3px rgba(0,0,0,0.2);
 }
 .btn.btn-light {
   border: 2px solid white;
@@ -232,10 +233,14 @@ address span {
 .btn.btn-small {
   margin: 10px 0;
   padding: 8px 15px 10px;
+  border: 1px solid rgba(255,255,255,0.7);
+  border-radius: 4px;
 }
 .avatar {
   width: 100%;
   max-width: 128px;
+  border: 1px solid white;
+  box-shadow: 0 0 3px rgba(0,0,0,0.1), 0 3px 3px rgba(0,0,0,0.2);
 }
 .avatar-name {
   margin-bottom: 0;
@@ -245,13 +250,15 @@ address span {
   font-size: 14px;
 }
 .hero {
-  min-height: 500px;
-  padding: 20px;
-  background: url("../images/hero-san-fran.jpg") no-repeat center center;
+  min-height: 650px;
+  padding-bottom: 20px;
+  background: url("../images/hero-san-francisco.jpg") no-repeat center bottom;
   background-size: cover;
   color: white;
 }
 .hero .nav-main {
+  padding: 15px 30px;
+  border-top: 6px solid #e46a00;
   text-align: right;
   font-weight: 700;
 }
@@ -279,7 +286,7 @@ address span {
 }
 .values {
   padding: 0;
-  background: linear-gradient(to right, #1695a3 50%, #225378 50%);
+  background: linear-gradient(to right, #e46a00 50%, #1695a3 50%);
   text-align: left;
   color: white;
 }
@@ -288,18 +295,18 @@ address span {
 }
 @media screen and (max-width: 600px) {
   .values .column:first-child {
-    background: #1695a3;
+    background: #e46a00;
   }
   .values .column:nth-child(2) {
-    background: #444;
+    background: #333;
   }
   .values .column:last-child {
-    background: #225378;
+    background: #1695a3;
   }
 }
 @media screen and (min-width: 601px) {
   .values .container {
-    background: linear-gradient(to right, #1695a3 33.33%, #444 33.33%, #444 66.66%, #225378 66.66%);
+    background: linear-gradient(to right, transparent 33.33%, #333 33.33%, #333 66.66%, transparent 66.66%);
   }
   .values .column {
     width: 33.33%;
@@ -311,7 +318,7 @@ address span {
   background: #f7f7f7;
 }
 .talks .keynotes {
-  max-width: 450px;
+  max-width: 500px;
   margin: 0 auto;
 }
 .talks .session {
@@ -397,7 +404,7 @@ address span {
 }
 .galleries {
   padding: 0;
-  background: linear-gradient(to right, #1695a3 50%, #225378 50%);
+  background: linear-gradient(to right, #e46a00 50%, #333 50%);
   text-align: left;
   color: white;
 }
@@ -406,10 +413,10 @@ address span {
 }
 @media screen and (max-width: 600px) {
   .galleries .column:first-child {
-    background: #1695a3;
+    background: #e46a00;
   }
   .galleries .column:last-child {
-    background: #225378;
+    background: #333;
   }
 }
 @media screen and (min-width: 601px) {
@@ -447,6 +454,7 @@ address span {
 }
 .tickets .ticket.sold-out .btn {
   background: #ccc;
+  box-shadow: none;
 }
 .tickets .ticket.sold-out .btn:hover {
   cursor: default;
@@ -530,7 +538,7 @@ address span {
   text-align: left;
 }
 .sponsors {
-  background: #444;
+  background: #333;
   color: white;
 }
 .sponsors .container {
@@ -542,7 +550,9 @@ address span {
   margin-bottom: 0;
   display: inline-block;
   background: rgba(0,0,0,0.2);
-  border-radius: 3px;
+  border-radius: 4px;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 3px rgba(0,0,0,0.1), 0 3px 3px rgba(0,0,0,0.2);
 }
 .sponsors .sponsor:hover {
   opacity: 1;
