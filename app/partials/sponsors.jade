@@ -1,16 +1,14 @@
+mixin sponsor(href, src, name)
+  a.sponsor(href=href, title=name)
+    img(src=src, alt=name)
+
 section#sponsors.sponsors
   h2 Sponsors
   p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   .container.cf
-    a.sponsor(href='')
-      img(src='images/temp/logo1.svg' alt='')
-    a.sponsor(href='')
-      img(src='images/temp/logo2.svg' alt='')
-    a.sponsor(href='')
-      img(src='images/temp/logo3.svg' alt='')
-    a.sponsor(href='')
-      img(src='images/temp/logo1.svg' alt='')
-    a.sponsor(href='')
-      img(src='images/temp/logo2.svg' alt='')
-    a.sponsor(href='')
-      img(src='images/temp/logo1.svg' alt='')
+    +sponsor('https://github.com/', 'images/temp/logo1.svg', 'GitHub')
+    +sponsor('https://mailchimp.com/', 'images/temp/logo2.svg', 'Mailchimp')
+    +sponsor('https://andyet.com/', 'images/temp/logo3.svg', '&yet')
+    +sponsor('https://github.com/', 'images/temp/logo1.svg', 'GitHub')
+    +sponsor('https://mailchimp.com/', 'images/temp/logo2.svg', 'Mailchimp')
+    +sponsor('https://github.com/', 'images/temp/logo1.svg', 'GitHub')

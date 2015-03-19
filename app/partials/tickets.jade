@@ -1,23 +1,18 @@
+mixin ticket(type, href, price)
+  .ticket.cf&attributes(attributes)
+    p= type
+    a.btn.btn-primary.btn-small(href=href)= price
+
 section#tickets.tickets
   h2 Tickets
   p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor dictum ante, et pellentesque diam viverra ut. Donec tincidunt elementum feugiat.
   .container.cf
     h3 Full event tickets
     .ticket-list
-      .ticket.cf.sold-out
-        p Early Bird
-        a.btn.btn-primary.btn-small(href='') $150
-      .ticket.cf
-        p General Admission
-        a.btn.btn-primary.btn-small(href='') $300
-      .ticket.cf
-        p Scholarship
-        a.btn.btn-primary.btn-small(href='') Free
+      +ticket('Early Bird', 'https://google.com', '$150')(class='sold-out')
+      +ticket('General Admission', 'https://google.com', '$300')
+      +ticket('Scholarship', 'https://google.com', 'Free')
     h3 Perks only tickets
     .ticket-list
-      .ticket.cf
-        p After party only
-        a.btn.btn-primary.btn-small(href='') $20
-      .ticket.cf
-        p FamousTV access only
-        a.btn.btn-primary.btn-small(href='') $20
+      +ticket('After party only', 'https://google.com', '$20')
+      +ticket('FamousTV access only', 'https://google.com', '$20')

@@ -1,45 +1,22 @@
+mixin member(src, name, href, twitter)
+  .team-member.column
+    img.avatar(src=src, alt=name)
+    p.avatar-name= name
+    a.avatar-twitter(href=href)= twitter
 
 section#team.team
   h2 Organizers & Ambassadors
   p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor dictum ante.
   .container.cf
-    .team-member.column
-      img.avatar(src='images/temp/avatar1.jpg' alt='')
-      p.avatar-name First LastName
-      a.avatar-twitter(href='') @firstlastname
-    .team-member.column
-      img.avatar(src='images/temp/avatar2.jpg' alt='')
-      p.avatar-name First LastName
-      a.avatar-twitter(href='') @firstlastname
-    .team-member.column
-      img.avatar(src='images/temp/avatar3.jpg' alt='')
-      p.avatar-name First LastName
-      a.avatar-twitter(href='') @firstlastname
-    .team-member.column
-      img.avatar(src='images/temp/avatar4.jpg' alt='')
-      p.avatar-name First LastName
-      a.avatar-twitter(href='') @firstlastname
-    .team-member.column
-      img.avatar(src='images/temp/avatar5.jpg' alt='')
-      p.avatar-name First LastName
-      a.avatar-twitter(href='') @firstlastname
-    .team-member.column
-      img.avatar(src='images/temp/avatar1.jpg' alt='')
-      p.avatar-name First LastName
-      a.avatar-twitter(href='') @firstlastname
-    .team-member.column
-      img.avatar(src='images/temp/avatar2.jpg' alt='')
-      p.avatar-name First LastName
-      a.avatar-twitter(href='') @firstlastname
-    .team-member.column
-      img.avatar(src='images/temp/avatar3.jpg' alt='')
-      p.avatar-name First LastName
-      a.avatar-twitter(href='') @firstlastname
-    .team-member.column
-      img.avatar(src='images/temp/avatar4.jpg' alt='')
-      p.avatar-name First LastName
-      a.avatar-twitter(href='') @firstlastname
-    .team-member.column
-      img.avatar(src='images/temp/avatar5.jpg' alt='')
-      p.avatar-name First LastName
-      a.avatar-twitter(href='') @firstlastname
+    +member('images/temp/avatar1.jpg', 'First Lastname', 'https://twitter.com/jquerysf', '@firstlastname')
+    +member('images/temp/avatar2.jpg', 'First Lastname', 'https://twitter.com/jquerysf', '@firstlastname')
+    +member('images/temp/avatar3.jpg', 'First Lastname', 'https://twitter.com/jquerysf', '@firstlastname')
+    +member('images/temp/avatar4.jpg', 'First Lastname', 'https://twitter.com/jquerysf', '@firstlastname')
+    +member('images/temp/avatar5.jpg', 'First Lastname', 'https://twitter.com/jquerysf', '@firstlastname')
+    +member('images/temp/avatar6.jpg', 'First Lastname', 'https://twitter.com/jquerysf', '@firstlastname')
+    +member('images/temp/avatar1.jpg', 'First Lastname', 'https://twitter.com/jquerysf', '@firstlastname')
+    +member('images/temp/avatar2.jpg', 'First Lastname', 'https://twitter.com/jquerysf', '@firstlastname')
+    +member('images/temp/avatar3.jpg', 'First Lastname', 'https://twitter.com/jquerysf', '@firstlastname')
+    +member('images/temp/avatar4.jpg', 'First Lastname', 'https://twitter.com/jquerysf', '@firstlastname')
+    +member('images/temp/avatar5.jpg', 'First Lastname', 'https://twitter.com/jquerysf', '@firstlastname')
+    +member('images/temp/avatar6.jpg', 'First Lastname', 'https://twitter.com/jquerysf', '@firstlastname')
