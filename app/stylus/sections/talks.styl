@@ -5,15 +5,22 @@
   h3
     padding: 5px 15px
     background: $grey-light
-    text-align: left
+
+  .keynotes
+    max-width: 450px
+    margin: 0 auto
 
   .session
     width: 100%
 
+    h3
+      text-align: left
+
   // Single column, avatar at left
   @media screen and (max-width: $small-width)
 
-    .session
+    .session,
+    .keynotes
       margin-top: 30px
 
     .speaker
@@ -27,14 +34,22 @@
       float: left
       border-radius: 3px
 
+  // Two keynote speakers wide, avatar above
   // One session wide, three speakers wide, avatar above
   @media screen and (min-width: $small-width + 1px)
 
+    .keynotes,
     .session
-      margin: 30px 0 20px
+      margin-top: 30px
+      margin-bottom: 20px
+
+    .keynotes .speaker
+      width: 50%
+
+    .session .speaker
+      width: 33.33%
 
     .speaker
-      width: 33.33%
       padding: 20px
 
     .avatar
@@ -43,6 +58,9 @@
 
   // Two sessions wide
   @media screen and (min-width: $medium-width)
+
+    .keynotes
+      margin-top: 50px
 
     .session
       width: 48%
