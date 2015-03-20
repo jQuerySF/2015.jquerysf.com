@@ -1,15 +1,15 @@
 mixin event(time, title)
-  .slot
+  .slot.cf
     span.time= time
     span.title= title
 
 mixin break(time, type)
-  .slot.break
+  .slot.break.cf
     span.time= time
     span.type= type
 
 mixin talk(time, title, href, speaker)
-  .slot.talk
+  .slot.talk.cf
     span.time= time
     span.title= title
       = ' - '

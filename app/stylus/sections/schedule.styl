@@ -11,6 +11,21 @@
     &:not(:last-child)
       border-bottom: $grey-border
 
-  .time
-    width: 150px
-    display: inline-block
+  .time,
+  .title
+    display: block
+    float: left
+
+  @media screen and (max-width: $medium-width)
+
+    .time
+      width: 100px
+    .title
+      width: calc(100% - 100px)
+
+  @media screen and (min-width: $medium-width + 1px)
+
+    .time
+      width: 150px
+    .title
+      width: calc(100% - 150px)
