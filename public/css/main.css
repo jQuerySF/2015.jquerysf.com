@@ -396,7 +396,7 @@ address span {
 }
 .values {
   padding: 0;
-  background: linear-gradient(to right, #0f6872 50%, #1695a3 50%);
+  background: linear-gradient(to right, #1695a3 50%, #0b4a52 50%);
   text-align: left;
   color: white;
 }
@@ -405,18 +405,18 @@ address span {
 }
 @media screen and (max-width: 600px) {
   .values .column:first-child {
-    background: #0f6872;
+    background: #1695a3;
   }
   .values .column:nth-child(2) {
-    background: #333;
+    background: #0f6872;
   }
   .values .column:last-child {
-    background: #1695a3;
+    background: #0b4a52;
   }
 }
 @media screen and (min-width: 601px) {
   .values .container {
-    background: linear-gradient(to right, transparent 33.33%, #333 33.33%, #333 66.66%, transparent 66.66%);
+    background: linear-gradient(to right, transparent 33.33%, #0f6872 33.33%, #0f6872 66.66%, transparent 66.66%);
   }
   .values .column {
     width: 33.33%;

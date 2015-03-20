@@ -2,8 +2,8 @@
 
 .values
   padding: 0
-  background: linear-gradient(to right, $teal-drk 50%,
-                                        $teal 50%)
+  background: linear-gradient(to right, $teal 50%,
+                                        darken($teal,50%) 50%)
   text-align: left
   color: white
 
@@ -15,19 +15,19 @@
 
     .column
       &:first-child
-        background: $teal-drk
-      &:nth-child(2)
-        background: $grey-drk
-      &:last-child
         background: $teal
+      &:nth-child(2)
+        background: $teal-drk
+      &:last-child
+        background: darken($teal,50%)
 
   // Three columns wide, container sets background colors
   @media screen and (min-width: $small-width + 1px)
 
     .container
       background: linear-gradient(to right, transparent 33.33%,
-                                            $grey-drk 33.33%,
-                                            $grey-drk 66.66%,
+                                            $teal-drk 33.33%,
+                                            $teal-drk 66.66%,
                                             transparent 66.66%)
 
     .column
