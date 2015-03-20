@@ -2,4 +2,15 @@
 
 .site-footer
   background: $grey-light
-  height: 100px
+  padding: 30px 20px
+
+  a
+    display: inline-block
+    color: $grey-drk
+    font-weight: $font-weight-bold
+    font-size: 14px
+
+    &:not(:last-child):after
+      content: '•'
+      margin: 0 10px
+      display: inline-block
