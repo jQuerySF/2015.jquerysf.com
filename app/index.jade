@@ -20,28 +20,11 @@ html(lang='en')
 
   body#top
 
-    nav.nav-main.cf
-      a.home(href='#top') jQuerySF
-      label.reveal-nav-btn(for='reveal-nav') Menu
-      input.reveal-nav-input(type='checkbox' id='reveal-nav' role='button')
+    // Main navigation
+    include partials/nav.jade
 
-      .nav-main-list
-        a.main-nav-link(href='#talks') Events
-        a.main-nav-link(href='#tickets') Tickets
-        a.main-nav-link(href='#accessibility') Accessibility
-        a.main-nav-link(href='#coc') Code of Conduct
-        a.main-nav-link(href='#sponsors') Sponsors
-        a.main-nav-link(href='#team') Team
-
-    header.hero
-      // This header image is by Debasis Photography on Flickr
-      // licensed under Creative Commons - https://www.flickr.com/photos/debasis123/3075338655
-
-      .container
-        h1 jQuerySF
-        h2 a new type of conference
-        p.date June 22-23, 2015
-        p.location San Francisco, California
+    // Hero section
+    include partials/hero.jade
 
     // Conference values
     include partials/values.jade
@@ -77,7 +60,4 @@ html(lang='en')
     include partials/team.jade
 
     // Footer
-    footer.site-footer
-      nav.nav-footer
-        a(href='#top') jQuerySF
-        a(href='mailto:jquerysf@famo.us' title='Email us at jquery@famo.us') Contact Us
+    include partials/footer.jade
