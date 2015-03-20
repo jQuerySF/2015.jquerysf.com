@@ -428,23 +428,36 @@ address span {
 }
 .social .subscribe,
 .social .social-links {
-  float: right;
+  display: inline-block;
+  vertical-align: middle;
 }
 .social .social-links {
-  margin: 10px;
+  padding-top: 2px;
 }
 .social .social-links a {
-  display: inline-block;
+  display: block;
   color: #333;
   font-weight: 700;
 }
 .social .social-links .twitter {
-  padding: 12px;
-  padding-left: 50px;
-  padding-right: 20px;
+  padding: 12px 20px 11px 50px;
   background: #f7f7f7 url("../images/twitter-logo.svg") no-repeat 15px center;
   background-size: 24px 20px;
   border-radius: 4px;
+}
+@media screen and (max-width: 600px) {
+  .social .subscribe,
+  .social .social-links {
+    margin: 5px;
+  }
+}
+@media screen and (min-width: 601px) {
+  .social {
+    text-align: right;
+  }
+  .social .social-links {
+    margin: 10px;
+  }
 }
 .talks .keynotes {
   max-width: 500px;
