@@ -249,7 +249,8 @@ address span {
   border: 2px solid white;
 }
 .btn.btn-primary {
-  background: #1695a3;
+  background-color: #1695a3;
+  background-image: linear-gradient(to bottom, #1aafc0, #1695a3);
   border: 1px solid #148693;
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), 0 0 3px rgba(0,0,0,0.1), 0 3px 3px rgba(0,0,0,0.2);
 }
@@ -283,7 +284,6 @@ address span {
 }
 .hero .nav-main {
   padding: 15px 30px;
-  border-top: 6px solid #e46a00;
   text-align: right;
   font-weight: 700;
 }
@@ -329,7 +329,7 @@ address span {
 }
 .values {
   padding: 0;
-  background: linear-gradient(to right, #e46a00 50%, #1695a3 50%);
+  background: linear-gradient(to right, #0f6872 50%, #1695a3 50%);
   text-align: left;
   color: white;
 }
@@ -338,7 +338,7 @@ address span {
 }
 @media screen and (max-width: 600px) {
   .values .column:first-child {
-    background: #e46a00;
+    background: #0f6872;
   }
   .values .column:nth-child(2) {
     background: #333;
@@ -447,7 +447,7 @@ address span {
 }
 .galleries {
   padding: 0;
-  background: linear-gradient(to right, #e46a00 50%, #333 50%);
+  background: linear-gradient(to right, #1695a3 50%, #333 50%);
   text-align: left;
   color: white;
 }
@@ -456,7 +456,7 @@ address span {
 }
 @media screen and (max-width: 600px) {
   .galleries .column:first-child {
-    background: #e46a00;
+    background: #1695a3;
   }
   .galleries .column:last-child {
     background: #333;
