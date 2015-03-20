@@ -1,0 +1,70 @@
+// Main nav
+
+.nav-main
+  width: 100%
+  padding: 15px 30px
+  position: fixed
+  top: 0
+  z-index: 10
+  background: $grey-drk
+  text-align: right
+  font-weight: $font-weight-bold
+
+  a
+    margin-left: 15px
+    display: inline-block
+    color: white
+
+    &.home
+      margin-left: 0
+      float: left
+
+  .reveal-nav-btn
+    padding: 4px 8px
+    display: none
+    {centerVert}
+    right: 30px
+    border: 2px solid white
+    border-radius: 3px
+    color: white
+    font-size: 14px
+    text-transform: uppercase
+    cursor: pointer
+
+    &:hover
+      background: white
+      color: $grey-drk
+
+  .reveal-nav-input
+    position: absolute
+    display: none
+    visibility: hidden
+
+  @media screen and (max-width: $medium-width)
+
+    .nav-main-list
+      width: 100%
+      display: none
+      background: $teal
+      position: absolute
+      top: 100%
+      left: 0
+
+      a
+        margin-left: 0
+        padding: 8px 30px
+        display: block
+        text-align: left
+
+        &:not(:last-child)
+          border-bottom: 1px solid white(.2)
+
+        &:hover
+          background: $teal-drk
+
+    .reveal-nav-btn
+    .reveal-nav-input
+      display: inline-block
+
+    .reveal-nav-input:checked + .nav-main-list
+      display: block

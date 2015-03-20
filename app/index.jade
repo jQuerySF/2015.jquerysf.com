@@ -18,18 +18,22 @@ html(lang='en')
 
   body
 
-    header.hero
-      // This header image is by Debasis Photography on Flickr
-      // licensed under Creative Commons - https://www.flickr.com/photos/debasis123/3075338655
+    nav.nav-main.cf
+      a.home(href='/') jQuerySF
+      label.reveal-nav-btn(for='reveal-nav') Menu
+      input.reveal-nav-input(type='checkbox' id='reveal-nav' role='button')
 
-      nav.nav-main.cf
-        a.home(href='/') jQuerySF
+      .nav-main-list
         a(href='#talks') Events
         a(href='#tickets') Tickets
         a(href='#accessibility') Accessibility
         a(href='#coc') Code of Conduct
         a(href='#sponsors') Sponsors
         a(href='#team') Team
+
+    header.hero
+      // This header image is by Debasis Photography on Flickr
+      // licensed under Creative Commons - https://www.flickr.com/photos/debasis123/3075338655
 
       .container
         h1 jQuerySF

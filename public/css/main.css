@@ -195,12 +195,12 @@ section > ul {
   background: #f7f7f7;
   text-align: left;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .dual-column > .column {
     width: 100%;
   }
 }
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 901px) {
   .dual-column > .column {
     width: 48%;
   }
@@ -275,32 +275,91 @@ address span {
 .avatar-twitter {
   font-size: 14px;
 }
+.nav-main {
+  width: 100%;
+  padding: 15px 30px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background: #333;
+  text-align: right;
+  font-weight: 700;
+}
+.nav-main a {
+  margin-left: 15px;
+  display: inline-block;
+  color: white;
+}
+.nav-main a.home {
+  margin-left: 0;
+  float: left;
+}
+.nav-main .reveal-nav-btn {
+  padding: 4px 8px;
+  display: none;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 30px;
+  border: 2px solid white;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.nav-main .reveal-nav-btn:hover {
+  background: white;
+  color: #333;
+}
+.nav-main .reveal-nav-input {
+  position: absolute;
+  display: none;
+  visibility: hidden;
+}
+@media screen and (max-width: 900px) {
+  .nav-main .nav-main-list {
+    width: 100%;
+    display: none;
+    background: #1695a3;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+  .nav-main .nav-main-list a {
+    margin-left: 0;
+    padding: 8px 30px;
+    display: block;
+    text-align: left;
+  }
+  .nav-main .nav-main-list a:not(:last-child) {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+  }
+  .nav-main .nav-main-list a:hover {
+    background: #0f6872;
+  }
+  .nav-main .reveal-nav-btn,
+  .nav-main .reveal-nav-input {
+    display: inline-block;
+  }
+  .nav-main .reveal-nav-input:checked + .nav-main-list {
+    display: block;
+  }
+}
 .hero {
   min-height: 650px;
+  padding-top: 80px;
   padding-bottom: 20px;
   background: url("../images/hero-san-francisco.jpg") no-repeat center bottom;
   background-size: cover;
   color: white;
 }
-.hero .nav-main {
-  padding: 15px 30px;
-  text-align: right;
-  font-weight: 700;
-}
-.hero .nav-main a {
-  margin-left: 15px;
-  display: inline-block;
-  color: white;
-}
-.hero .nav-main a.home {
-  margin-left: 0;
-  float: left;
-}
 .hero h2 {
   font-style: italic;
 }
 .hero .container {
-  margin-top: 60px;
   position: relative;
 }
 .hero .date {
