@@ -6,7 +6,7 @@
   position: fixed
   top: 0
   z-index: 10
-  background: $grey-drk
+  background: darken($grey-drk,40%)
   text-align: right
   font-weight: $font-weight-bold
 
@@ -45,7 +45,7 @@
     .nav-main-list
       width: 100%
       display: none
-      background: darken($grey-drk,40%)
+      background: black
       position: absolute
       top: 100%
       left: 0
@@ -57,7 +57,7 @@
         text-align: left
 
         &:not(:last-child)
-          border-bottom: 1px solid white(.1)
+          border-bottom: 1px solid #222
 
         &:hover
           background: black

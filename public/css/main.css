@@ -289,7 +289,7 @@ address span {
   position: fixed;
   top: 0;
   z-index: 10;
-  background: #333;
+  background: #1f1f1f;
   text-align: right;
   font-weight: 700;
 }
@@ -331,7 +331,7 @@ address span {
   .nav-main .nav-main-list {
     width: 100%;
     display: none;
-    background: #1f1f1f;
+    background: black;
     position: absolute;
     top: 100%;
     left: 0;
@@ -343,7 +343,7 @@ address span {
     text-align: left;
   }
   .nav-main .nav-main-list a:not(:last-child) {
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid #222;
   }
   .nav-main .nav-main-list a:hover {
     background: black;
