@@ -244,13 +244,14 @@ address span {
   font-weight: 700;
   text-transform: uppercase;
   color: white;
-  box-shadow: 0 0 3px rgba(0,0,0,0.1), 0 3px 3px rgba(0,0,0,0.2);
 }
 .btn.btn-light {
   border: 2px solid white;
 }
 .btn.btn-primary {
   background: #1695a3;
+  border: 1px solid #148693;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), 0 0 3px rgba(0,0,0,0.1), 0 3px 3px rgba(0,0,0,0.2);
 }
 .btn.btn-primary:hover {
   background: #137f8b;
@@ -521,6 +522,7 @@ address span {
 .tickets .ticket.sold-out .btn {
   background: #ccc;
   box-shadow: none;
+  border: none;
 }
 .tickets .ticket.sold-out .btn:hover {
   cursor: default;
