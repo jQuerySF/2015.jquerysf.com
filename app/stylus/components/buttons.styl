@@ -12,6 +12,17 @@
   &.btn-light
     border: 2px solid white
 
+    &:hover
+      background: white
+
+  &.btn-light-grey
+    &:hover
+      color: $grey-drk
+
+  &.btn-light-teal
+    &:hover
+      color: $teal
+
   &.btn-primary
     background-color: $teal
     background-image: linear-gradient(to bottom, lighten($teal,10%), $teal)
@@ -21,7 +32,6 @@
 
     &:hover
       background: darken($teal,15%)
-      opacity: 1
 
   &.btn-small
     margin: 10px 0

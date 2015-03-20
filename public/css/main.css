@@ -169,7 +169,7 @@ a {
   -moz-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-a:hover {
+a:not(.btn):hover {
   opacity: 0.6;
 }
 ul {
@@ -248,6 +248,15 @@ address span {
 .btn.btn-light {
   border: 2px solid white;
 }
+.btn.btn-light:hover {
+  background: white;
+}
+.btn.btn-light-grey:hover {
+  color: #333;
+}
+.btn.btn-light-teal:hover {
+  color: #1695a3;
+}
 .btn.btn-primary {
   background-color: #1695a3;
   background-image: linear-gradient(to bottom, #1aafc0, #1695a3);
@@ -256,7 +265,6 @@ address span {
 }
 .btn.btn-primary:hover {
   background: #137f8b;
-  opacity: 1;
 }
 .btn.btn-small {
   margin: 10px 0;
