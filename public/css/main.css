@@ -373,6 +373,9 @@ address span {
   margin: 0 auto;
 }
 .talks .keynotes h3 {
+  margin-top: 20px;
+  padding: 5px 15px;
+  background: #f7f7f7;
   text-align: left;
 }
 @media screen and (max-width: 600px) {
