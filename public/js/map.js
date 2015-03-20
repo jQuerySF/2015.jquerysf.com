@@ -1,8 +1,10 @@
 function initialize() {
   var myLatlng = new google.maps.LatLng(37.78779,-122.42180);
+  // centering map a little higher than the Regency Ballroom to accomodate for the information bubble
+  var centerLatlng = new google.maps.LatLng(37.789036, -122.421636);
   var mapOptions = {
     zoom: 16,
-    center: myLatlng,
+    center: centerLatlng,
     scrollwheel: false,
     mapTypeControl: false
   };
