@@ -432,9 +432,19 @@ address span {
 }
 .social .social-links {
   margin: 10px;
-  padding: 12px 20px;
-  background: #f7f7f7;
-  font-size: 12px;
+}
+.social .social-links a {
+  display: inline-block;
+  color: #333;
+  font-weight: 700;
+}
+.social .social-links .twitter {
+  padding: 12px;
+  padding-left: 50px;
+  padding-right: 20px;
+  background: #f7f7f7 url("../images/twitter-logo.svg") no-repeat 15px center;
+  background-size: 24px 20px;
+  border-radius: 4px;
 }
 .talks .keynotes {
   max-width: 500px;
