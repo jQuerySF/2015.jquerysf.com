@@ -323,7 +323,7 @@ address span {
   .nav-main .nav-main-list {
     width: 100%;
     display: none;
-    background: #1695a3;
+    background: #1f1f1f;
     position: absolute;
     top: 100%;
     left: 0;
@@ -335,10 +335,10 @@ address span {
     text-align: left;
   }
   .nav-main .nav-main-list a:not(:last-child) {
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
   }
   .nav-main .nav-main-list a:hover {
-    background: #0f6872;
+    background: black;
   }
   .nav-main .reveal-nav-btn,
   .nav-main .reveal-nav-input {
