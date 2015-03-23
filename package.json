@@ -8,6 +8,7 @@
     "build-markup": "jade ./app/index.jade -o ./public/",
     "build-styles": "stylus ./app/stylus/main.styl -o ./public/css/main.css",
     "build": "npm run build-markup && npm run build-styles",
+    "watch": "nodemon --ignore node_modules/ -e js,json,jade,styl --exec 'npm run build'",
     "deploy": "npm run build && surge ./public"
   },
   "repository": {
@@ -23,6 +24,7 @@
   "devDependencies": {
     "browser-sync": "^2.3.1",
     "jade": "^1.9.2",
+    "nodemon": "^1.3.7",
     "stylus": "^0.50.0",
     "surge": "^0.8.1"
   }
