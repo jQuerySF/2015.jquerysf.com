@@ -7,10 +7,11 @@
     "start": "npm run build && serve public/",
     "dev": "serve public & npm run watch",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --ignore node_modules/ -e js,json,jade,styl --exec 'npm run build'",
+    "build": "npm run build-markup && npm run build-styles",
     "build-markup": "jade ./app/index.jade -o ./public/",
     "build-styles": "stylus ./app/stylus/main.styl -o ./public/css/main.css",
-    "build": "npm run build-markup && npm run build-styles",
-    "watch": "nodemon --ignore node_modules/ -e js,json,jade,styl --exec 'npm run build'",
+    "prepublish": "npm run build",
     "deploy": "npm run build && surge ./public"
   },
   "repository": {
