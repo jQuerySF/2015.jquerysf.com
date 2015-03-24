@@ -4,13 +4,12 @@ mixin member(src, name, href, twitter)
     p.avatar-name= name
     a.avatar-twitter(href=href)= twitter
 
-section#team.team
-  h2 Organizers & Ambassadors
-  p The conference is being thoughtfully curated by a number of talented and established individuals from the Community.
+section#ambassadors.team
+  h2 Ambassadors
+  p The conference would not be possible without the support from a number of established individuals from the Community.
   .container.cf
     +member('/images/team/adam.jpg', 'Adam Sontag', 'https://twitter.com/ajpiano', '@ajpiano')
     +member('/images/team/jade.jpg', 'Jade Q Wang', 'https://twitter.com/qiqing', '@qiqing')
     +member('/images/team/jennison.jpg', 'Jennison Asunction', 'https://twitter.com/Jennison', '@Jennison')
     +member('/images/team/karolina.jpg', 'Karolina Szczur', 'https://twitter.com/fox', '@fox')
     +member('/images/team/kris.jpg', 'Kris Borchers', 'https://twitter.com/kborchers', '@kborchers')
-    +member('/images/team/myles.jpg', 'Myles Borins', 'https://twitter.com/thealphanerd', '@thealphanerd')
