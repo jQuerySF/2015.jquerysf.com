@@ -20,7 +20,8 @@
       float: left
 
   .reveal-nav-btn
-    padding: 4px 8px
+    width: 36px
+    height: 30px
     display: none
     {centerVert}
     right: 30px
@@ -31,9 +32,26 @@
     text-transform: uppercase
     cursor: pointer
 
+    // Hamburger mixin
+    hamburger(color)
+      background: color
+      box-shadow: 0 -6px 0 color,
+                  0  6px 0 color
+
+    // Hamburger
+    &:before
+      width: 20px
+      height: 2px
+      display: block
+      {centerBoth}
+      content: ''
+      hamburger(white)
+
     &:hover
       background: white
-      color: $grey-drk
+
+      &:before
+        hamburger($grey-drk)
 
   .reveal-nav-input
     position: absolute
