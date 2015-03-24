@@ -1,20 +1,26 @@
-mixin ticket(type, href, price)
+mixin ticket(type, href, price, date)
   .ticket.cf&attributes(attributes)
     p= type
-    a.btn.btn-primary.btn-small(href=href)= price
+    if(!date)
+      a.btn.btn-primary.btn-small(href=href)= price
+    else
+      p.date
+        | #{price} tickets on sale #{date}
 
 section#tickets.tickets
   h2 Tickets
-  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor dictum ante, et pellentesque diam viverra ut. Donec tincidunt elementum feugiat.
+  p 
   .container.dual-column.cf
-    .column
-      h3 Full event tickets
-      .ticket-list
-        +ticket('Early Bird', 'https://google.com', '$150')(class='sold-out')
-        +ticket('General Admission', 'https://google.com', '$300')
-        +ticket('Scholarship', 'https://google.com', 'Free')
-    .column
-      h3 Perks only tickets
-      .ticket-list
-        +ticket('After party only', 'https://google.com', '$20')
-        +ticket('FamousTV access only', 'https://google.com', '$20')
+    //- .column
+    h3 Full event tickets
+    .ticket-list
+      //- +ticket('Super Early Bird', 'https://google.com', '$150', 'Insert Date Here')(class='sold-out')
+      +ticket('Early Bird', 'https://google.com', '$150', 'Tuesday March 31st')(class='not-on-sale')
+      +ticket('Late Bird', 'https://google.com', '$225', 'Tuesday April 14th')(class='not-on-sale')
+      +ticket('General Admission', 'https://google.com', '$350', 'Friday May 1st')(class='not-on-sale')
+      //- +ticket('Scholarship', 'https://google.com', 'Free')
+    //- .column
+    //-   h3 Perks only tickets
+    //-   .ticket-list
+    //-     +ticket('After party only', 'https://google.com', '$20')
+    //-     +ticket('FamousTV access only', 'https://google.com', '$20')
