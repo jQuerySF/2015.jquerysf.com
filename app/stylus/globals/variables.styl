@@ -48,7 +48,7 @@ transition(args)
   -moz-transition: args
   transition: args
 
-// Center content vertically
+// Centering content absolutely
 
 centerVert =
   position: absolute
@@ -56,3 +56,18 @@ centerVert =
   -webkit-transform: translateY(-50%)
   -moz-transform: translateY(-50%)
   transform: translateY(-50%)
+
+centerBoth =
+  position: absolute
+  top: 50%
+  left: 50%
+  -webkit-transform: translate(-50%,-50%)
+  -moz-transform: translate(-50%,-50%)
+  transform: translate(-50%,-50%)
+
+centerHoriz =
+  position: absolute
+  left: 50%
+  -webkit-transform: translateX(-50%)
+  -moz-transform: translateX(-50%)
+  transform: translateX(-50%)

@@ -1,15 +1,18 @@
 // Social section
 
 .social
-  padding: 10px 20px 0
+  padding: 10px 15px
+  background: $grey-light
 
-  .subscribe,
-  .social-links
-    display: inline-block
-    vertical-align: middle
+  .subscribe
+    input, .btn
+      display: inline-block
+      vertical-align: middle
 
   .social-links
-    padding-top: 2px
+    padding: 4px
+
+  .social-links
 
     a
       display: block
@@ -17,20 +20,30 @@
       font-weight: $font-weight-bold
 
     .twitter
-      padding: 12px 20px 11px 50px
-      background: $grey-light url(../images/twitter-logo.svg) no-repeat 15px center
+      padding: 5px
+      padding-left: 30px
+      background: $grey-light url(../images/twitter-logo.svg) no-repeat 0 center
       background-size: 24px 20px
       border-radius: 4px
 
   @media screen and (max-width: $small-width)
 
-    .subscribe,
+    text-align: left
+
+    .subscribe
+      input
+        width: 55%
+      .btn
+        width: 43%
+        margin-left: 2%
+
     .social-links
-      margin: 5px
+      margin-bottom: 10px
+      display: inline-block
 
   @media screen and (min-width: $small-width + 1px)
 
-    text-align: right
-
     .social-links
-      margin: 10px
+      float: left
+    .subscribe
+      float: right
