@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "nodemon --ignore node_modules/ -e js,json,jade,styl,md --exec 'npm run build'",
     "build": "npm run build-markup && npm run build-styles && npm run build-coc",
-    "build-markup": "jade ./app/index.jade -o ./public/",
+    "build-markup": "jade ./app/index.jade ./app/404.jade -o ./public/",
     "build-styles": "stylus ./app/stylus/main.styl -o ./public/css/main.css",
     "build-coc": "marked -i COC.md -o public/coc.html",
     "prepublish": "npm run build",
