@@ -1,26 +1,7 @@
-mixin ticket(type, href, price, date)
-  .ticket.cf&attributes(attributes)
-    p= type
-    if(!date)
-      a.btn.btn-primary.btn-small(href=href)= price
-    else
-      p.date
-        | #{price} tickets on sale #{date}
+section#tickets
 
-section#tickets.tickets
-  h2 Tickets
-  p 
-  .container.dual-column.cf
-    //- .column
-    h3 Full event tickets
-    .ticket-list
-      //- +ticket('Super Early Bird', 'https://google.com', '$150', 'Insert Date Here')(class='sold-out')
-      +ticket('Early Bird', 'https://google.com', '$150', 'Wednesday April 1st')(class='not-on-sale')
-      +ticket('Late Bird', 'https://google.com', '$225', 'Wednesday April 8th')(class='not-on-sale')
-      +ticket('General Admission', 'https://google.com', '$350', 'Wednesday April 22nd')(class='not-on-sale')
-      //- +ticket('Scholarship', 'https://google.com', 'Free')
-    //- .column
-    //-   h3 Perks only tickets
-    //-   .ticket-list
-    //-     +ticket('After party only', 'https://google.com', '$20')
-    //-     +ticket('FamousTV access only', 'https://google.com', '$20')
+  h2 Buy Tickets
+
+  hr
+  
+  #{'tito-widget'}.tito-widget(event="jquerysf/2015")

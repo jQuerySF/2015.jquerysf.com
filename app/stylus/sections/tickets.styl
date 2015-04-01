@@ -1,46 +1,14 @@
-// Tickets section
+.tito-widget
+    margin-top: 40px;
+    
+    .row
+        border-bottom 1px solid #ccc
+        height 100px
+        margin-left 1%
+        padding 0 20px
+        position relative
+        width 98%
 
-.tickets
-
-  .container
-    text-align: left
-
-  .ticket
-    padding-left: 15px
-
-    &:not(:last-child)
-      border-bottom: $grey-border
-
-    p
-      margin-top: 20px
-      float: left
-
-    .btn
-      float: right
-
-    // Sold out styling
-    &.sold-out
-      p
-        opacity: .7
-
-        &:after
-          content: ' - Sold out'
-
-      .btn
-        background: #ccc
-        box-shadow: none
-        border: none
-
-        &:hover
-          cursor: default
-          opacity: 1
-          
-    // not on sale styling
-    &.not-on-sale
-      p
-        opacity: .7
-
-      .date
-        float: right
-        box-shadow: none
-        border: none
+        .tito-ticket-upcoming-explanation-wrapper
+            margin-top: 20px;
+            margin-right: 1em;
