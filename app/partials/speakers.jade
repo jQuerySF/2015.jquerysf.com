@@ -1,0 +1,53 @@
+mixin member(src, name, href, twitter)
+  .team-member.column
+    img.avatar(src=src, alt=name)
+    p.avatar-name= name
+    if twitter
+      a.avatar-twitter(href=href)= twitter
+
+section#speakers.team
+  h2 Speakers
+  hr
+  h3 Empathy
+  .container.cf
+    +member('/images/speakers/john.jpg', 'John Resign', 'https://twitter.com/jeresig', '@jeresig')
+    +member('/images/speakers/amanda.jpg', 'Amanda Glosson', 'https://twitter.com/amandaglosson', '@amandaglosson')
+    +member('/images/speakers/kelly.jpg', 'Kelly King', 'https://twitter.com/kng', '@kng')
+  hr
+  h3 More blocks to be announced soon
+  hr
+  //- h3 Accessibility
+  //- .container.cf
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
+  //- hr
+  //- h3 Frameworks
+  //- .container.cf
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
+  //- hr
+  //- h3 CSS
+  //- .container.cf
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
+  //- hr
+  //- h3 Browser Tools
+  //- .container.cf
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
+  //- hr
+  //- h3 Build Tools
+  //- .container.cf
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
+  //- hr
+  //- h3 Deployment
+  //- .container.cf
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
+  //-   +member('/images/speakers/secret.png', 'Coming Soon')
