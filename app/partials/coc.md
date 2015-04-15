@@ -26,7 +26,7 @@ We expect participants to follow these rules at all event venues and event-relat
 
 If you feel uncomfortable, are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately.
 
-You can also send an email to [info@jQuerySF.com][contact]
+You can also send an email to [jQuerySF@famo.us][contact]
 
 ###Enforcement
 
@@ -35,9 +35,9 @@ If a participant is asked to stop harassing or inappropriate behavior, they are 
 Our foremost concern is the safety and comfort of all our particpants. We will evaluate any possible sanctions with regard to whether or not they provide the safety needed.
 
 ###This is a process
-This code of conduct was adapted from a number of similar COC's including but not limited to [CascadiaJS][cascadia], [conc.at][conc.at], and [reactJS][reactJS].  If there are any concerns you still have please feel free to reach out to us at [info@jQuerySF.com][contact]
+This code of conduct was adapted from a number of similar COC's including but not limited to [CascadiaJS][cascadia], [conc.at][conc.at], and [reactJS][reactJS].  If there are any concerns you still have please feel free to reach out to us at [jQuerySF@famo.us][contact]
 
-[contact]: mailto:info@jquery.sf "Email Address to contact for concerns and more information"
+[contact]: mailto:jQuerySF@famo.us "Email Address to contact for concerns and more information"
 
 [cascadia]: https://github.com/cascadiajs/2015.cascadiajs.com/blob/master/COC.md "Code of Conduct for the cascadiaJS conference 2015"
 
