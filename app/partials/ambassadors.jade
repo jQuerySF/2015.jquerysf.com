@@ -1,6 +1,7 @@
 mixin member(src, name, href, twitter)
   .team-member.column
-    img.avatar(src=src, alt=name)
+    a.avatar-twitter(href=href)
+      img.avatar(src=src, alt=name)
     p.avatar-name= name
     a.avatar-twitter(href=href)= twitter
 
