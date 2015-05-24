@@ -1,6 +1,7 @@
 [
   {
     "id": "example-1",
+    "block": "example block",
     "name": "Example Name",
     "twitter": "@example",
     "bio": "Is an example. Was born an exmaple, could very well die an example",
@@ -9,6 +10,7 @@
   },
   {
     "id": "example-2",
+    "block": "example block",
     "name": "Example Name",
     "twitter": "@example",
     "bio": "Is an example. Was born an exmaple, could very well die an example",
@@ -17,6 +19,7 @@
   },
   {
     "id": "example-3",
+    "block": "example block",
     "name": "Example Name",
     "twitter": "@example",
     "bio": "Is an example. Was born an exmaple, could very well die an example",
