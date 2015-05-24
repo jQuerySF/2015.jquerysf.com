@@ -3,3 +3,8 @@ extends ../layouts/layout.jade
 block content
   // Venue section
   include ../partials/venue.jade
+
+block scripts
+  script(src='//maps.googleapis.com/maps/api/js')
+  script(src='/js/map.js')
+  
