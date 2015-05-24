@@ -11,8 +11,7 @@
     "build": "npm run build-jade && npm run build-stylus",
     "build-jade": "jade ./app/pages -o ./public/",
     "build-stylus": "stylus ./app/stylus/main.styl -o ./public/css/main.css",
-    "prepublish": "npm run build",
-    "deploy": "npm run build && surge ./public"
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -25,11 +24,14 @@
   },
   "homepage": "https://2015.jquerysf.com",
   "devDependencies": {
+    "nodemon": "^1.3.7"
+  },
+  "dependencies": {
+    "async": "^1.0.0",
     "jade": "^1.9.2",
     "marked": "^0.3.3",
-    "nodemon": "^1.3.7",
+    "mkdirp": "^0.5.1",
     "serve": "^1.4.0",
-    "stylus": "^0.50.0",
-    "surge": "^0.8.1"
+    "stylus": "^0.51.1"
   }
 }
