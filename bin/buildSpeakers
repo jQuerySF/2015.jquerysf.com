@@ -14,7 +14,7 @@ var mkdirp = require('mkdirp');
 var speakers = require('../app/data/speakers.json');
 
 // create paths
-var basePath = path.resolve(__dirname, '..', 'public', 'speaker');
+var basePath = path.resolve(__dirname, '..', 'build', 'speaker');
 
 // read layout from disk
 var speakerLayoutPath = path.resolve(__dirname, '..', 'app', 'pages', 'speaker', 'speaker.jade')
