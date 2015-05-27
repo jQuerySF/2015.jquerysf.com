@@ -1,7 +1,14 @@
 extends ../layouts/layout.jade
 
+block vars
+    - var title = "Location"
+
 block content
-  // Venue section
+
+  // heading
+  include ../partials/secondary-header.jade
+
+    // Venue section
   include ../partials/venue.jade
 
 block scripts

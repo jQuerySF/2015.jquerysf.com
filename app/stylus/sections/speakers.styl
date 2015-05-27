@@ -1,0 +1,172 @@
+section.speakers
+  background:$colors-speakers-background
+
+  h3
+    margin:0 auto
+    max-width:750px
+    font:$fonts-speakers-subheading
+    font-size:36px
+    color:$colors-speakers-subheading
+
+  h4.topics
+    margin-top:160px
+    font:$fonts-light
+    font-size:24px
+    color:$colors-speakers-heading
+    text-transform:lowercase
+
+  ul.topics
+    list-style-type: none
+    font:$fonts-light
+    font-size:24px
+    color:#7D7F90
+
+    li
+      display:inline
+      cursor:pointer
+
+      &.selected
+        color:$colors-speakers-foreground
+
+    li:not(:last-child)
+      &:after
+        color:#7D7F90
+        content: " / "
+
+  @media screen and (max-width: $small-width)
+    h3
+      font-size:24px
+
+  ul#talks
+    margin:80px auto 0
+    padding:0
+    max-width:800px
+    list-style-type:none
+
+    li
+      text-align:left
+      margin-bottom:130px
+
+      img
+        float:left
+        width:195px
+        height:195px
+
+      .details
+        margin-left:230px
+
+        h3
+          margin:0
+          font:$fonts-speaker-bio-heading
+          font-size:36px
+          color:$colors-speakers-heading
+        h4
+          font:$fonts-speaker-bio-subheading
+          font-size:27px
+          color:#BEBFC7
+
+          &.date
+            font:$fonts-speakers-subheading
+            font-size:27px
+        a
+          font:$fonts-speaker-bio-subheading
+          font-size:27px
+          color:$colors-speaker-bio-foreground
+        p
+          margin-top:30px
+          margin-bottom:30px
+          font:$fonts-speaker-bio-body
+          font-size:14px
+          line-height:28px
+          color:$colors-speaker-bio-foreground
+          white-space: pre-wrap
+        h2
+          font:$fonts-speakers-subheading
+          font-size:27px
+          color:$colors-speaker-bio-foreground
+
+
+
+#speakers
+  padding:100px 0
+  background:$colors-speakers-background
+
+  h3
+    margin:50px auto
+    max-width:400px
+    font:$fonts-speakers-subheading
+    font-size:36px
+    color:$colors-speakers-subheading
+
+  a
+    font:$fonts-speakers-body
+    font-size:24px
+    color:$colors-speakers-body
+    text-transform:lowercase
+
+  .carousel-container
+    position: relative
+
+    span
+      position: absolute
+      right:0
+      width:100px
+      background:red
+      display:block
+      height:294px
+      width:200px
+      pointer-events:none;
+      backgroundGradient($background-secondary, transparent)
+
+      &:first-child
+        backgroundGradient(transparent, $background-secondary)
+        left:0
+
+  @media screen and (max-width: $small-width)
+    h3
+      font-size:24px
+      padding-left:30px
+      padding-right:30px
+
+  .carousel
+    list-style-type:none
+    display:block
+    margin:0 auto
+    margin-bottom: 70px
+    height:294px
+    max-width:none
+    padding:0
+    overflow-x: scroll
+    overflow-y:hidden
+    white-space: nowrap
+
+    li
+      display:inline-block
+      width:195px
+      height:290px
+      color:black
+      background:white
+      text-align:left
+      margin:0 25px
+
+      img
+        margin-bottom:20px
+        width:195px
+        height:195px
+
+      h4
+        margin:0 20px
+        font:$fonts-speaker-bio-heading
+        font-size:18px
+        text-transform:none
+        color:black
+
+      a
+        margin:0
+        padding:0
+
+      a.twitter
+        margin:0 20px
+        color:$foreground-tertiary
+        font:$fonts-speaker-bio-heading
+        font-size:18px

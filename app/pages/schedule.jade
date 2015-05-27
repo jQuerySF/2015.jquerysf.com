@@ -1,0 +1,74 @@
+extends ../layouts/layout.jade
+
+block vars
+    - var title = "Schedule"
+
+block content
+
+    // heading
+    include ../partials/secondary-header.jade
+
+    section.schedule.content
+        ul
+            li
+                table
+                    thead
+                        tr
+                            th.datetime June 22
+                            th.day Monday
+                    tr
+                        td.datetime 8:00 AM
+                        td.event
+                            h3 Registration
+                            h4 Stutter Room
+                            p I was brought onto the Totem project as a front-end designer and developer by another company to help fulfill the needs of their client.
+                            a(href='#') Link
+                    tr.group
+                        td
+                        td Empathy
+
+                    tr
+                        td.datetime 9:00 AM
+                        td.speaker
+                            img(src="../images/fpo-schedule-speaker.png")
+                            h3 Amanda Glossen
+                            h4 The Struggle of Acceptance
+                            a(href="/speaker/the-struggle-of-acceptance.html")
+
+                    tr
+                        td.datetime 9:30 AM
+                        td.speaker
+                            img(src="../images/fpo-schedule-speaker.png")
+                            h3 Amanda Glossen
+                            h4 The Struggle of Acceptance
+                            a(href="/speaker/another-test-talk.html")
+
+                    tr
+                        td.datetime 10:00 AM
+                        td.event
+                            h2 Break
+
+
+            li
+                table
+                    thead
+                        tr
+                            th.datetime June 23
+                            th.day Tuesday
+                    tr
+                        td.datetime 8:00 AM
+                        td.event
+                            h3 Coffee by Blue Bottle
+                            h4 Stutter Room
+                            p I was brought onto the Totem project as a front-end designer and developer by another company to help fulfill the needs of their client.
+                            a(href='#') Link
+                    tr.group
+                        td
+                        td The Regency Ballroom
+                    tr
+                        td.datetime 9:00 AM
+                        td.speaker
+                            img(src="../images/fpo-schedule-speaker.png")
+                            h3 Amanda Glossen
+                            h4 The Struggle of Acceptance
+                            a(href="#")

@@ -1,5 +1,12 @@
 extends ../layouts/layout.jade
 
+block vars
+    - var title = "Code of Conduct"
+
 block content
-  section
-    include:markdown ../content/coc.md
+
+    // heading
+    include ../partials/secondary-header.jade
+
+    section.coc
+        include:markdown ../content/coc.md

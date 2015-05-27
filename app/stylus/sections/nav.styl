@@ -2,20 +2,30 @@
 
 .nav-main
   width: 100%
-  padding: 15px 30px
+  padding: 0 125px
   position: fixed
   top: 0
+  height:$nav-height
   z-index: 10
-  background: darken($grey-drk,40%)
+  background: $colors-nav-background
   text-align: right
-  font-weight: $font-weight-bold
+  border-bottom:1px solid $colors-border
+
+  .nav-main-list
+    font:$fonts-nav
+    font-size:18px
+    color:$colors-nav-foreground
+    text-transform: lowercase
+    float:right
+    centerVertical()
 
   a
     margin-left: 15px
     display: inline-block
-    color: white
+    color: $colors-nav-foreground
 
     &.home
+      centerVertical()
       margin-left: 0
       float: left
 
@@ -25,7 +35,7 @@
     display: none
     {centerVert}
     right: 30px
-    border: 2px solid white
+    border: 2px solid black
     border-radius: 3px
     color: white
     font-size: 14px
@@ -45,10 +55,10 @@
       display: block
       {centerBoth}
       content: ''
-      hamburger(white)
+      hamburger(black)
 
     &:hover
-      background: white
+      background: grey
 
       &:before
         hamburger($grey-drk)
@@ -59,6 +69,8 @@
     visibility: hidden
 
   @media screen and (max-width: $medium-width)
+
+    padding: 0 10vw
 
     .nav-main-list
       width: 100%
@@ -86,3 +98,7 @@
 
     .reveal-nav-input:checked + .nav-main-list
       display: block
+
+  @media screen and (max-width: $small-width)
+
+    padding: 0 30px

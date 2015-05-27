@@ -5,3 +5,8 @@ public/*.html
 public/css/
 public/speaker/
 build/
+public/css/main.css
+public/generated/speaker-list.jade
+public/coc.html
+public/404.html
+public/generated/speaker-carousel.jade

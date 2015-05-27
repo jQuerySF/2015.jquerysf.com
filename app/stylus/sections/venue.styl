@@ -4,18 +4,59 @@
   min-height: 450px
   padding: 0
   position: relative
-  background: black
+  color:$colors-venue-foreground
+  background: $colors-venue-background
   text-align: left
-  padding-top: 75px
   padding-bottom: 75px
 
-  .venue-info
-    padding: 40px
-    position: relative
-    color: white
-    z-index: 2
+  .container
+    margin-top:60px
+    display:table
+    width:100%
 
+    .column
+      display:table-cell
+      min-height:450px
+      height:490px
+      width:50%
+      vertical-align:top
+
+      &.location
+        background:$colors-venue-location-background
+        text-align:center
+        vertical-align: middle
+
+        h3
+          font:$fonts-venue-primary
+          font-size:30px
+          text-transform:uppercase
+          span
+            display:block
+            font:$fonts-venue-secondary
+            font-size:60px
+
+        hr
+          margin:40px auto 50px
+          background:$foreground-tertiary
+          height:1px
+          width:100px
+
+        a
+          padding:20px 100px
+          font:$fonts-venue-primary
+          font-size:27px
+          color:$colors-venue-location-background
+          background:$colors-venue-foreground
+          text-transform:lowercase
+
+      #map-canvas
+        height:100%
+
+  /**
+  * Google maps styles replaced
+  */
   .venue-marker
+    color: black
     .venue-name
       margin-bottom: 0
       font-size: 16px
@@ -24,39 +65,21 @@
       margin-bottom: 5px
       font-size: 14px
 
-  // Single column
+  /**
+  * Mobile styles
+  */
+  @media screen and (max-width: $medium-width)
+    .container
+      .column
+        width:100%
+        height:300px
+        display: block
+        &.location
+          padding-top:60px
+
   @media screen and (max-width: $small-width)
-
-    #map-canvas
-      width: 100%
-      min-height: 300px
-
-    .venue-info
-      background: url(../images/regency-ballroom.jpg) no-repeat center center
-      background-size: cover
-
-  // Two columns
-  @media screen and (min-width: $small-width + 1px)
-
-    #map-canvas
-      width: 50%
-      height: 100%
-      position: absolute
-      top: 0
-      left: 0
-
-    .venue-photo
-      width: 50%
-      height: 100%
-      position: absolute
-      top: 0
-      right: 0
-      z-index: 1
-      background: url(../images/regency-ballroom.jpg) no-repeat center center
-      background-size: cover
-
-    .venue-info
-      width: 50%
-      float: right
-      position: relative
-      z-index: 2
+    .container
+      .column
+        &.location
+          a
+            padding:10px 20px

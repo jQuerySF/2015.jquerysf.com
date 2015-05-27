@@ -1,0 +1,14 @@
+- var DATE_FORMAT = "dddd, MMMM Do, h:mma"
+ul#talks
+
+    each speaker in speakers
+        li(class="#{speaker.topic.replace(/\s/gi, '-').toLowerCase()}")
+            img(src="../images/speakers/#{speaker.image}")
+            .details
+                h3 #{speaker.name}
+                h4 #{speaker.from}
+                a(href="https://twitter.com/#{speaker.twitter}" target="_blank") @#{speaker.twitter}
+                p #{speaker.details}
+                h4.date #{moment(new Date(speaker.date)).format(DATE_FORMAT)}
+                a(href="/speaker/#{speaker.id}.html")
+                    h2 #{speaker.title}

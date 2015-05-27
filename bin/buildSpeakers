@@ -9,12 +9,14 @@ var async = require('async');
 var jade = require('jade');
 var path = require('path');
 var mkdirp = require('mkdirp');
+var moment = require('moment');
 
 // internal modules
 var speakers = require('../app/data/speakers.json');
 
 // create paths
 var basePath = path.resolve(__dirname, '..', 'build', 'speaker');
+var generated = path.resolve(__dirname, '..', 'public', 'generated');
 
 // read layout from disk
 var speakerLayoutPath = path.resolve(__dirname, '..', 'app', 'pages', 'speaker', 'speaker.jade')
@@ -31,9 +33,46 @@ function buildSpeakerPage(speaker, done) {
   fs.writeFile(outPath, template(speaker), done);
 }
 
+var speakerListLayoutPath = path.resolve(__dirname, '..', 'app', 'layouts', 'speaker-list.jade');
+var speakerListLayout = fs.readFileSync(speakerListLayoutPath);
+
+function buildSpeakerListPage(speakers) {
+
+    console.log("Building speaker list page");
+
+    var outPath = path.join(generated, 'speaker-list.jade');
+
+    var template = jade.compile(speakerListLayout, {
+        //jade options
+        filename: speakerListLayoutPath
+    });
+
+   fs.writeFile(outPath, template({ "moment": moment, "speakers": speakers }));
+}
+
+var speakerCarouselLayoutPath = path.resolve(__dirname, '..', 'app', 'layouts', 'speaker-carousel.jade');
+var speakerCarouselLayout = fs.readFileSync(speakerCarouselLayoutPath);
+
+function buildSpeakerCarousel(speakers) {
+
+    console.log("Building speaker carousel");
+
+    var outPath = path.join(generated, 'speaker-carousel.jade');
+
+    var template = jade.compile(speakerCarouselLayout, {
+        //jade options
+        filename: speakerCarouselLayoutPath
+    });
+
+   fs.writeFile(outPath, template({ "moment": moment, "speakers": speakers }));
+}
+
 function buildSpeakerPages(done) {
   async.each(speakers, buildSpeakerPage, done);
 }
+
+buildSpeakerListPage(speakers);
+buildSpeakerCarousel(speakers);
 
 // pipeline
 async.series([

@@ -1,34 +1,35 @@
 // Values section
 
 .values
-  padding: 0
-  background: linear-gradient(to right, $teal 50%,
-                                        darken($teal,50%) 50%)
-  text-align: left
-  color: white
+
+  .container
+    margin:0 auto
+    max-width:$max-width
 
   .column
-    padding: 30px
+    padding: 50px
+    float:left
+
+    h2
+      font:$fonts-values-heading
+      color:$colors-values-heading
+      font-size:36px
+      text-align:center
+      text-transform: lowercase
+
+    p
+      font:$fonts-values-body
+      color:$colors-values-body
+      font-size:14px
 
   // Single column, each column with a background color
   @media screen and (max-width: $small-width)
 
     .column
-      &:first-child
-        background: $teal
-      &:nth-child(2)
-        background: $teal-drk
-      &:last-child
-        background: darken($teal,50%)
+      padding:30px
 
   // Three columns wide, container sets background colors
   @media screen and (min-width: $small-width + 1px)
-
-    .container
-      background: linear-gradient(to right, transparent 33.33%,
-                                            $teal-drk 33.33%,
-                                            $teal-drk 66.66%,
-                                            transparent 66.66%)
 
     .column
       width: 33.33%

@@ -39,6 +39,7 @@ a
   text-decoration: none
   color: $teal
   transition(all .2s ease-in)
+  transform(translateZ(1px))
 
 a:not(.btn)
   &:hover
@@ -96,11 +97,7 @@ address span
   display: block
 
 .container
-  max-width: $container-width
   margin: 0 auto
-
-.column
-  float: left
 
 
 // Clearfix
@@ -112,3 +109,17 @@ address span
 
   &:after
     clear: both
+
+
+h2.headline
+  margin:0 auto
+  max-width:400px
+  font:$fonts-very-bold
+  font-size:36px
+  letter-spacing:14px
+  color:$foreground-tertiary
+  text-align:center
+  text-transform:uppercase
+  padding-bottom:30px
+  border: 11px solid $foreground-tertiary
+  border-image: url(../images/squiggle-border.svg) 0 0 100% 0 repeat;

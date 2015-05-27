@@ -7,44 +7,14 @@ mixin member(src, name, href, twitter)
       a.avatar-twitter(href=href)= twitter
 
 section#speakers.team
-  h2 Speakers
-  hr
-  h3 Empathy
-  .container.cf
-    +member('/images/speakers/amanda.jpg', 'Amanda Glosson', 'https://twitter.com/amandaglosson', '@amandaglosson')
-    +member('/images/speakers/john.jpg', 'John Resig', 'https://twitter.com/jeresig', '@jeresig')
-    +member('/images/speakers/kelly.jpg', 'Kelly King', 'https://twitter.com/kng', '@kng')
-  hr
-  h3 Build Tools
-  .container.cf
-    +member('/images/speakers/ariya.jpg', 'Ariya Hidayat', 'https://twitter.com/AriyaHidayat', '@AriyaHidayat')
-    +member('/images/speakers/substack.png', 'James Halliday', 'https://twitter.com/substack', '@Substack')
-    +member('/images/speakers/james.png', 'James Kyle', 'https://twitter.com/thejameskyle', '@thejameskyle')
-    +member('/images/speakers/lin.jpg', 'Lin Clark', 'https://twitter.com/linclark', '@linclark')
-  hr
-  h3 Accessibility
-  .container.cf
-    +member('/images/speakers/jkup.jpg', 'Jon Kuperman', 'https://twitter.com/jkup', '@jkup')
-    +member('/images/speakers/karo.jpg', 'Karo Caran', 'https://twitter.com/RainbowPoetess', '@RainbowPoetess')
-    +member('/images/speakers/victor.jpg', 'Victor Tsaran', 'https://twitter.com/vick08', '@vick08')
-  hr
-  h3 CSS Frameworks
-  .container.cf
-    +member('/images/speakers/brandon.jpg', 'Brandon Arnold', 'https://twitter.com/brandon_arnold', '@brandon_arnold')
-    +member('/images/speakers/mdo.jpg', 'Mark Otto', 'https://twitter.com/mdo', '@mdo')
-    +member('/images/speakers/sarah.jpg', 'Sarah frisk', 'https://twitter.com/sarahfrisk', '@sarahfrisk')
-  hr
-  h3 JavaScript Frameworks
-  .container.cf
-    +member('/images/speakers/ebryn.jpg', 'Erik Bryn', 'https://twitter.com/ebryn', '@ebryn')
-    +member('/images/speakers/mgonto.jpg', 'Martin Gonto', 'https://twitter.com/mgonto', '@mgonto')
-    +member('/images/speakers/floydophone.jpg', 'Pete Hunt', 'https://twitter.com/floydophone', '@floydophone')
-  hr
-  h3 Full Stack
-  .container.cf
-    +member('/images/speakers/estark37.jpg', 'Emily Stark', 'https://twitter.com/estark37', '@estark37')
-    +member('/images/team/jade.jpg', 'Jade Wang', 'https://twitter.com/qiqing', '@qiqing')
-    +member('/images/speakers/zqzoltan.jpg', 'Zoltan Olah', 'https://twitter.com/zqzoltan', '@zqzoltan')
-  hr
-  h3 More blocks to be announced soon
-  hr
+  h2.headline Speakers
+  h3 These amazing people, all in one place.
+
+  .carousel-container
+      span
+      span
+
+      //auto-generated from build script
+      include ../../public/generated/speaker-carousel.jade
+
+  a(href="/speakers.html") View Full Speaker List

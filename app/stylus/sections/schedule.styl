@@ -2,6 +2,106 @@
 
 .schedule
 
+  ul, li
+    margin:0
+    padding:0
+    list-style-type: none
+    max-width:none
+
+  ul
+    position:relative
+    margin:0 auto
+
+    li
+      &:not(:first-child)
+        margin-top:160px
+
+  table
+    max-width:800px
+    font:$fonts-regular
+    margin:0 auto
+    text-align:left
+
+    thead
+      font-size:27px
+      color:$foreground-primary
+      border-bottom:1px solid $foreground-tertiary
+
+    th.datetime, td.datetime
+      font-size:27px
+      color:$foreground-tertiary
+      white-space:nowrap
+      vertical-align:top
+      padding-bottom:20px
+
+    th.day, td.event, td.speaker, tr.group td
+      padding-left:80px
+
+    td
+      padding-top:30px
+
+    td.event
+      h2
+        font:$fonts-bold
+        font-size:27px
+        color:$foreground-tertiary
+        text-transform:uppercase
+      h3
+        font:$fonts-lora-regular
+        font-size:27px
+      h4
+        font:$fontsregular
+        font-size:18px
+        color:$foreground-tertiary
+        text-transform:uppercase
+      p
+        margin:20px 0
+        font:$fonts-lora-regular
+        font-size:14px
+      a
+        font:$fonts-regular
+        font-size:18px
+        color:$foreground-secondary
+        background:$foreground-tertiary
+        padding:8px
+        text-transform:uppercase
+        display:inline-block
+
+    td.speaker
+      position:relative
+      color:$foreground-primary
+
+      img
+        float:left
+
+      h3, h4
+        margin:0 0 0 120px
+        font:$fonts-lora-regular
+        font-size:27px
+
+      h4
+        color:#BEBFC7
+
+      a
+        right:0
+        width:43px
+        height:43px
+        background:url(../images/fpo-arrow-link.png) no-repeat
+        centerVertical()
+        position:absolute
+
+    tr.group
+      font:$fonts-regular
+      font-size:18px
+      color:$foreground-tertiary
+      text-transform:uppercase
+
+
+
+
+
+
+
   .container
     text-align: left
 

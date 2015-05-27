@@ -1,16 +1,21 @@
 // Footer section
 
 .site-footer
-  background: $grey-light
+  background:$background-secondary
   padding: 30px 20px
 
   a
     display: inline-block
-    color: $grey-drk
-    font-weight: $font-weight-bold
+    color:$foreground-secondary
+    font:$fonts-regular
     font-size: 14px
+    margin: 0 20px
 
-    &:not(:last-child):after
-      content: '•'
-      margin: 0 10px
-      display: inline-block
+    &:hover
+      color:$foreground-tertiary
+      opacity:1
+
+  @media screen and (max-width: $small-width)
+    a
+      margin:0 10px
+      margin-bottom:10px

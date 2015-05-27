@@ -1,0 +1,8 @@
+ul.carousel
+    each speaker in speakers
+        li
+            a(href="/speaker/#{speaker.id}.html")
+                img(src="../images/speakers/#{speaker.image}")
+            a(href="/speaker/#{speaker.id}.html")
+                h4 #{speaker.name}
+            a.twitter(href="https://twitter.com/#{speaker.twitter}" target="_blank") @#{speaker.twitter}

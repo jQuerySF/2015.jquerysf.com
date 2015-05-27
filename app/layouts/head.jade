@@ -2,7 +2,10 @@ head
   include ./meta.jade
 
   block title
-    title jQuerySF 2015
+  if title
+      title #{title} | jQuerySF 2015
+  else
+      title jQuerySF 2015
   
   include ./styles.jade
   

@@ -1,0 +1,82 @@
+// Events section
+
+.events
+  padding: 100px 0
+  background: $colors-events-background
+  text-align: left
+  color: white
+
+  .container
+    margin:50px auto
+    border-top: 1px solid $colors-border
+    border-bottom: 1px solid $colors-border
+    &>div
+      max-width:$max-width
+      margin:0 auto
+      display:table
+
+  .column
+    display:table-cell
+    padding:0
+    color:#9D9FAC
+    width:50%
+
+    &:not(:last-child)
+      border-right:1px solid $colors-border
+
+    img
+      margin:0 auto
+      display:block
+      width:49vw
+      max-width:575px
+      max-height:575px
+
+    div
+      max-width:600px
+
+    p
+      margin:15px 50px
+      font:$fonts-events-body
+      font-size:18px
+      text-align:left
+
+    a.btn
+      margin:15px 50px
+      font:$fonts-events-button
+      font-size:27px
+      color:$colors-events-foreground
+      text-align:left
+      text-transform:lowercase
+
+      &.bazaar
+        background:#69ffb4
+
+      &.gallery
+        background:#a6ff74
+
+  @media screen and (max-width: $medium-width)
+    .container
+      &>div
+        display:block
+
+    .column
+      display:block
+      width:100%
+
+      &:not(:last-child)
+        border:none
+        border-bottom:1px solid $colors-border
+
+      img
+        width:100vw
+        height:100vw
+
+  @media screen and (max-width: $small-width)
+
+    .column
+
+      a.btn
+        margin:15px 30px
+        font-size:18px
+      p
+        margin:15px 30px

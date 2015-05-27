@@ -1,5 +1,33 @@
 extends ../layouts/layout.jade
 
+block vars
+    - var title = "Tickets"
+
 block content
-  // Tickets
-  include ../partials/tickets.jade
+
+  // heading
+  include ../partials/secondary-header.jade
+
+  //timer
+  section.timer
+      h3 Conference Starts In
+      ul#countdown
+          li.days 00
+          li.hours 00
+          li.minutes 00
+          li.seconds 00
+
+
+  section#tickets
+
+      p Get your tickets today.
+
+      #{'tito-widget'}.tito-widget(event="jquerysf/2015")
+
+block scripts
+    script(src="../js/jquerysf.js" type="application/javascript")
+    script.
+        (function() {
+            CountdownTimer = new jQuerySF.CountdownTimer("countdown");
+            CountdownTimer.start(new Date("2015-06-22"));
+        })();

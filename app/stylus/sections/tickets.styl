@@ -1,6 +1,172 @@
+section.timer
+  padding:60px 0
+  height:370px
+  color:$colors-tickets-countdown-foreground
+  background:$colors-tickets-countdown-background
+
+  h3
+    color:$colors-tickets-countdown-foreground
+    font:$fonts-tickets-countdown-heading
+    font-size:24px
+    text-transform:uppercase
+    width:100%
+    position:absolute
+    left:0
+
+  ul
+    list-style-type: none
+    margin:0 auto
+    padding:0
+    max-width:none
+    overflow:hidden
+    centerVertical()
+
+    li
+      display:inline
+      font:$fonts-tickets-countdown
+      font-size:120px
+      letter-spacing: 14px
+      width:175px
+
+      &:not(:last-child)
+        &:after
+          font:$fonts-light
+          content:":"
+          opacity:0.25
+
+//standalone page
+section#tickets
+
+  p
+    font:$fonts-tickets-primary
+    font-size:36px
+    margin:0 auto
+    color:$colors-tickets-foreground
+    margin-top:45px
+    margin-bottom:50px
+    white-space: pre
+
+  @media screen and (max-width: $medium-width)
+    p
+      white-space:wrap
+
+//homepage partial
+section.tickets
+  p
+    font:$fonts-tickets-primary
+    font-size:36px
+    margin:0 auto
+    color:#9D9FAC
+    margin-top:45px
+    margin-bottom:50px
+    white-space: pre
+
+  a.btn
+    font:$fonts-tickets-primary
+    font-size:48px
+    border:none
+    border-radius:0
+    padding:20px 60px
+    background:#50c9c5
+    text-transform:lowercase
+
+  @media screen and (max-width: $medium-width)
+    p
+      font-size:24px
+    a.btn
+      font-size:24px
+
 .tito-widget
-    margin-top: 40px;
-    
+  margin-top: 40px;
+  text-align:left
+
+  .tito-wrapper
+    background:none
+    border:none
+    border-radius:0
+    border-top:1px solid $foreground-tertiary
+
+  .tito-wrapper, .tito-ticket-name-wrapper, .tito-ticket-price-quantity-wrapper, .tito-ticket-status-sold-out
+    border-bottom:1px solid $foreground-tertiary
+
+  .tito-ticket-status-sold-out
+    span
+      width:auto
+      height:auto
+      text-decoration: line-through;
+      text-transform:uppercase
+      border-radius:0
+      padding:10px
+      font:$fonts-regular
+      font-size:16px
+      color:white
+      background:$colors-tickets-foreground
+
+  .tito-ticket-price
+    span
+      font:$fonts-light
+      font-size:36px
+      color:$colors-tickets-foreground
+  .tito-ticket-quantity
+    span, input
+      font:$fonts-light
+      font-size:36px
+      color:$colors-tickets-foreground
+
+    input
+      width:60px
+      height:60px
+      color:$foreground-tertiary
+      border:1px solid $foreground-tertiary
+      border-radius:0
+
+  li.tito-discount-code
+    position:relative
+    height:60px
+
+  .tito-discount-code-form-wrapper
+    text-align:right
+    label
+      display:none
+
+  input.tito-discount-code-field
+    width:200px
+    height:60px
+    color:$foreground-tertiary
+    border:1px solid $foreground-tertiary
+    border-radius:0
+    font:$fonts-regular
+    font-size:16px
+    text-align:center
+    text-transform:uppercase
+    margin-top:10px
+
+  .tito-submit
+    border:none
+    border-radius:0
+    color:white
+    background:$foreground-tertiary
+    padding:20px 40px
+    font:$fonts-tickets-primary
+    font-size:27px
+    width:auto
+    height:auto
+    text-transform:lowercase
+
+  .tito-badge-link
+    text-align:left
+    text-transform:uppercase
+    font:$fonts-regular
+    font-size:14px
+    color:#BEBFC7
+
+  label
+    display:block
+    margin:20px 0
+    font:$fonts-tickets-primary
+    font-size:36px
+    color:$colors-tickets-foreground
+
     .row
         border-bottom 1px solid #ccc
         height 100px
