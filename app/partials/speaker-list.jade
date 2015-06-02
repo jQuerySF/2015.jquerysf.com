@@ -1,4 +1,3 @@
-- var DATE_FORMAT = "dddd, MMMM Do, h:mma"
 ul#talks
 
     each speaker in speakers
@@ -9,6 +8,6 @@ ul#talks
                 h4 #{speaker.from}
                 a(href="https://twitter.com/#{speaker.twitter}" target="_blank") @#{speaker.twitter}
                 p #{speaker.details}
-                h4.date #{moment(new Date(speaker.date)).format(DATE_FORMAT)}
+                h4.date #{speaker.date}
                 a(href="/speaker/#{speaker.id}.html")
                     h2 #{speaker.title}
