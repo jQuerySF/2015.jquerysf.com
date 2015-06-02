@@ -1,47 +1,49 @@
-[
-    {
-        "id": "the-struggle-of-acceptance",
-        "image":"amanda.jpg",
-        "name": "Amanda Glosson",
-        "from":"Salesforce",
-        "twitter": "amandaglosson",
-        "bio": "Artisan biodiesel DIY lomo. Hella 90's American Apparel High Life. Irony letterpress gastropub Intelligentsia.\n\nTattooed chia mlkshk chillwave fap, XOXO typewriter migas kogi meggings cliche. Chillwave skateboard YOLO, salvia art party Bushwick brunch.\n\nYr cred PBR&B small batch tattooed VHS. Hoodie mumblecore crucifix, heirloom pork belly four dollar toast before they sold out direct trade 90's High Life Wes Anderson leggings wayfarers gentrify pickled.",
-        "topic":"Empathy",
-        "location":"Regency Ballroom",
-        "time":"11pm",
-        "day":"Wednesday",
-        "date":"2015-11-11 13:00 PST",
-        "title": "The Struggle of Acceptance",
-        "details": "YOLO normcore meditation, readymade narwhal Tumblr gluten-free literally Williamsburg fixie lo-fi craft beer. Tofu sriracha cardigan post-ironic, forage mumblecore craft beer Tumblr keytar kitsch cray. Viral hoodie lo-fi ethical sustainable cliche Blue Bottle. XOXO Austin meggings, mlkshk wayfarers keytar wolf yr farm-to-table roof party 8-bit. Plaid raw denim sartorial retro, actually mixtape flannel tattooed post-ironic pork belly DIY normcore. Jean shorts dreamcatcher kitsch McSweeney's Schlitz. Selfies 3 wolf moon food truck Godard.\n\nMustache photo booth ugh actually. 3 wolf moon health goth pour-over, seitan Portland street art chillwave Austin leggings keytar disrupt butcher flannel put a bird on it fixie. Thundercats mlkshk artisan, +1 pug kale chips wolf synth trust fund Schlitz Neutra sustainable. Fashion axe PBR mixtape heirloom twee Etsy, bitters lomo. Occupy Godard you probably haven't heard of them, migas tote bag readymade fanny pack semiotics. Blue Bottle Shoreditch aesthetic you probably haven't heard of them bitters 90's. Fashion axe cred biodiesel plaid, farm-to-table messenger bag crucifix Blue Bottle art party artisan."
-    },
-    {
-        "id": "coffee-by-blue-bottle",
-        "image":"mgonto.jpg",
-        "name": "Bob Example",
-        "from":"Twitter",
-        "twitter": "bobexample",
-        "bio": "Artisan biodiesel DIY lomo. Hella 90's American Apparel High Life. Irony letterpress gastropub Intelligentsia.\n\nTattooed chia mlkshk chillwave fap, XOXO typewriter migas kogi meggings cliche. Chillwave skateboard YOLO, salvia art party Bushwick brunch.\n\nYr cred PBR&B small batch tattooed VHS. Hoodie mumblecore crucifix, heirloom pork belly four dollar toast before they sold out direct trade 90's High Life Wes Anderson leggings wayfarers gentrify pickled.",
-        "topic":"CSS",
-        "location":"Regency Ballroom",
-        "time":"11pm",
-        "day":"Wednesday",
-        "date":"2015-11-11 13:00 PST",
-        "title": "Coffee by Blue Bottle",
-        "details": "YOLO normcore meditation, readymade narwhal Tumblr gluten-free literally Williamsburg fixie lo-fi craft beer. Tofu sriracha cardigan post-ironic, forage mumblecore craft beer Tumblr keytar kitsch cray. Viral hoodie lo-fi ethical sustainable cliche Blue Bottle. XOXO Austin meggings, mlkshk wayfarers keytar wolf yr farm-to-table roof party 8-bit. Plaid raw denim sartorial retro, actually mixtape flannel tattooed post-ironic pork belly DIY normcore. Jean shorts dreamcatcher kitsch McSweeney's Schlitz. Selfies 3 wolf moon food truck Godard.\n\nMustache photo booth ugh actually. 3 wolf moon health goth pour-over, seitan Portland street art chillwave Austin leggings keytar disrupt butcher flannel put a bird on it fixie. Thundercats mlkshk artisan, +1 pug kale chips wolf synth trust fund Schlitz Neutra sustainable. Fashion axe PBR mixtape heirloom twee Etsy, bitters lomo. Occupy Godard you probably haven't heard of them, migas tote bag readymade fanny pack semiotics. Blue Bottle Shoreditch aesthetic you probably haven't heard of them bitters 90's. Fashion axe cred biodiesel plaid, farm-to-table messenger bag crucifix Blue Bottle art party artisan."
-    },
-    {
-        "id": "another-test-talk",
-        "image":"lin.jpg",
-        "name": "Lin",
-        "from":"Salesforce",
-        "twitter": "lin",
-        "bio": "Artisan biodiesel DIY lomo. Hella 90's American Apparel High Life. Irony letterpress gastropub Intelligentsia.\n\nTattooed chia mlkshk chillwave fap, XOXO typewriter migas kogi meggings cliche. Chillwave skateboard YOLO, salvia art party Bushwick brunch.\n\nYr cred PBR&B small batch tattooed VHS. Hoodie mumblecore crucifix, heirloom pork belly four dollar toast before they sold out direct trade 90's High Life Wes Anderson leggings wayfarers gentrify pickled.",
-        "topic":"Wild Cards",
-        "location":"Regency Ballroom",
-        "time":"11pm",
-        "day":"Wednesday",
-        "date":"2015-11-11 13:00 PST",
-        "title": "Another Test Talk",
-        "details": "YOLO normcore meditation, readymade narwhal Tumblr gluten-free literally Williamsburg fixie lo-fi craft beer. Tofu sriracha cardigan post-ironic, forage mumblecore craft beer Tumblr keytar kitsch cray. Viral hoodie lo-fi ethical sustainable cliche Blue Bottle. XOXO Austin meggings, mlkshk wayfarers keytar wolf yr farm-to-table roof party 8-bit. Plaid raw denim sartorial retro, actually mixtape flannel tattooed post-ironic pork belly DIY normcore. Jean shorts dreamcatcher kitsch McSweeney's Schlitz. Selfies 3 wolf moon food truck Godard.\n\nMustache photo booth ugh actually. 3 wolf moon health goth pour-over, seitan Portland street art chillwave Austin leggings keytar disrupt butcher flannel put a bird on it fixie. Thundercats mlkshk artisan, +1 pug kale chips wolf synth trust fund Schlitz Neutra sustainable. Fashion axe PBR mixtape heirloom twee Etsy, bitters lomo. Occupy Godard you probably haven't heard of them, migas tote bag readymade fanny pack semiotics. Blue Bottle Shoreditch aesthetic you probably haven't heard of them bitters 90's. Fashion axe cred biodiesel plaid, farm-to-table messenger bag crucifix Blue Bottle art party artisan."
-    }
-]
+{
+  "speakers": [
+      {
+          "id": "the-struggle-of-acceptance",
+          "image":"amanda.jpg",
+          "name": "Amanda Glosson",
+          "from":"Salesforce",
+          "twitter": "amandaglosson",
+          "bio": "Artisan biodiesel DIY lomo. Hella 90's American Apparel High Life. Irony letterpress gastropub Intelligentsia.\n\nTattooed chia mlkshk chillwave fap, XOXO typewriter migas kogi meggings cliche. Chillwave skateboard YOLO, salvia art party Bushwick brunch.\n\nYr cred PBR&B small batch tattooed VHS. Hoodie mumblecore crucifix, heirloom pork belly four dollar toast before they sold out direct trade 90's High Life Wes Anderson leggings wayfarers gentrify pickled.",
+          "topic":"Empathy",
+          "location":"Regency Ballroom",
+          "time":"11pm",
+          "day":"Wednesday",
+          "date":"2015-11-11 13:00 PST",
+          "title": "The Struggle of Acceptance",
+          "details": "YOLO normcore meditation, readymade narwhal Tumblr gluten-free literally Williamsburg fixie lo-fi craft beer. Tofu sriracha cardigan post-ironic, forage mumblecore craft beer Tumblr keytar kitsch cray. Viral hoodie lo-fi ethical sustainable cliche Blue Bottle. XOXO Austin meggings, mlkshk wayfarers keytar wolf yr farm-to-table roof party 8-bit. Plaid raw denim sartorial retro, actually mixtape flannel tattooed post-ironic pork belly DIY normcore. Jean shorts dreamcatcher kitsch McSweeney's Schlitz. Selfies 3 wolf moon food truck Godard.\n\nMustache photo booth ugh actually. 3 wolf moon health goth pour-over, seitan Portland street art chillwave Austin leggings keytar disrupt butcher flannel put a bird on it fixie. Thundercats mlkshk artisan, +1 pug kale chips wolf synth trust fund Schlitz Neutra sustainable. Fashion axe PBR mixtape heirloom twee Etsy, bitters lomo. Occupy Godard you probably haven't heard of them, migas tote bag readymade fanny pack semiotics. Blue Bottle Shoreditch aesthetic you probably haven't heard of them bitters 90's. Fashion axe cred biodiesel plaid, farm-to-table messenger bag crucifix Blue Bottle art party artisan."
+      },
+      {
+          "id": "coffee-by-blue-bottle",
+          "image":"mgonto.jpg",
+          "name": "Bob Example",
+          "from":"Twitter",
+          "twitter": "bobexample",
+          "bio": "Artisan biodiesel DIY lomo. Hella 90's American Apparel High Life. Irony letterpress gastropub Intelligentsia.\n\nTattooed chia mlkshk chillwave fap, XOXO typewriter migas kogi meggings cliche. Chillwave skateboard YOLO, salvia art party Bushwick brunch.\n\nYr cred PBR&B small batch tattooed VHS. Hoodie mumblecore crucifix, heirloom pork belly four dollar toast before they sold out direct trade 90's High Life Wes Anderson leggings wayfarers gentrify pickled.",
+          "topic":"CSS",
+          "location":"Regency Ballroom",
+          "time":"11pm",
+          "day":"Wednesday",
+          "date":"2015-11-11 13:00 PST",
+          "title": "Coffee by Blue Bottle",
+          "details": "YOLO normcore meditation, readymade narwhal Tumblr gluten-free literally Williamsburg fixie lo-fi craft beer. Tofu sriracha cardigan post-ironic, forage mumblecore craft beer Tumblr keytar kitsch cray. Viral hoodie lo-fi ethical sustainable cliche Blue Bottle. XOXO Austin meggings, mlkshk wayfarers keytar wolf yr farm-to-table roof party 8-bit. Plaid raw denim sartorial retro, actually mixtape flannel tattooed post-ironic pork belly DIY normcore. Jean shorts dreamcatcher kitsch McSweeney's Schlitz. Selfies 3 wolf moon food truck Godard.\n\nMustache photo booth ugh actually. 3 wolf moon health goth pour-over, seitan Portland street art chillwave Austin leggings keytar disrupt butcher flannel put a bird on it fixie. Thundercats mlkshk artisan, +1 pug kale chips wolf synth trust fund Schlitz Neutra sustainable. Fashion axe PBR mixtape heirloom twee Etsy, bitters lomo. Occupy Godard you probably haven't heard of them, migas tote bag readymade fanny pack semiotics. Blue Bottle Shoreditch aesthetic you probably haven't heard of them bitters 90's. Fashion axe cred biodiesel plaid, farm-to-table messenger bag crucifix Blue Bottle art party artisan."
+      },
+      {
+          "id": "another-test-talk",
+          "image":"lin.jpg",
+          "name": "Lin",
+          "from":"Salesforce",
+          "twitter": "lin",
+          "bio": "Artisan biodiesel DIY lomo. Hella 90's American Apparel High Life. Irony letterpress gastropub Intelligentsia.\n\nTattooed chia mlkshk chillwave fap, XOXO typewriter migas kogi meggings cliche. Chillwave skateboard YOLO, salvia art party Bushwick brunch.\n\nYr cred PBR&B small batch tattooed VHS. Hoodie mumblecore crucifix, heirloom pork belly four dollar toast before they sold out direct trade 90's High Life Wes Anderson leggings wayfarers gentrify pickled.",
+          "topic":"Wild Cards",
+          "location":"Regency Ballroom",
+          "time":"11pm",
+          "day":"Wednesday",
+          "date":"2015-11-11 13:00 PST",
+          "title": "Another Test Talk",
+          "details": "YOLO normcore meditation, readymade narwhal Tumblr gluten-free literally Williamsburg fixie lo-fi craft beer. Tofu sriracha cardigan post-ironic, forage mumblecore craft beer Tumblr keytar kitsch cray. Viral hoodie lo-fi ethical sustainable cliche Blue Bottle. XOXO Austin meggings, mlkshk wayfarers keytar wolf yr farm-to-table roof party 8-bit. Plaid raw denim sartorial retro, actually mixtape flannel tattooed post-ironic pork belly DIY normcore. Jean shorts dreamcatcher kitsch McSweeney's Schlitz. Selfies 3 wolf moon food truck Godard.\n\nMustache photo booth ugh actually. 3 wolf moon health goth pour-over, seitan Portland street art chillwave Austin leggings keytar disrupt butcher flannel put a bird on it fixie. Thundercats mlkshk artisan, +1 pug kale chips wolf synth trust fund Schlitz Neutra sustainable. Fashion axe PBR mixtape heirloom twee Etsy, bitters lomo. Occupy Godard you probably haven't heard of them, migas tote bag readymade fanny pack semiotics. Blue Bottle Shoreditch aesthetic you probably haven't heard of them bitters 90's. Fashion axe cred biodiesel plaid, farm-to-table messenger bag crucifix Blue Bottle art party artisan."
+      }
+  ]
+}
