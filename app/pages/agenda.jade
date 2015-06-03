@@ -40,9 +40,14 @@ mixin break(time)
 
 mixin tablehead (date, day)
   thead
-      tr
-          th.datetime= date
-          th.day= day
+    tr
+      th.datetime= date
+      th.day= day
+          
+mixin listitem()
+  ul
+    li
+      table
 
 block content
 
@@ -51,59 +56,70 @@ block content
 
     section.schedule.content
         ul
-            li
-                table
-                    +tablehead('June 22', 'Monday')
-                    +event('8:00 am', 'Registration', 'Sutter Room', 'Come get your badge, some coffee, and make some new friends')
-                    
-                    +group('Empathy')
-                    
-                    +talk(speakers[0])
-                    +talk(speakers[1])
-                    +talk(speakers[2])
+          li
+            table
+              +tablehead('June 22', 'Monday')
+              
+              +event('8:00 am', 'Registration', 'Sutter Room', 'Come get your badge, some coffee, and make some new friends')
+          
+              +group('Why Empathize?')
+          
+              +talk(speakers[0])
+              +talk(speakers[1])
+              +talk(speakers[2])
 
-                    +break('10:25 am')
-                    
-                    +group('Dev Tools')
-                    
-                    +talk(speakers[3])
-                    +talk(speakers[4])
-                    +talk(speakers[5])
-                    +talk(speakers[6])
-                    
-                    +event('12:20 pm', 'Lunch / Bazaar', 'Outside / Sutter Room', 'Enjoy an authentic San Francisco Food Truck Lunch and join us in the Open Source Bazaar')
-                    
-                    +talk(speakers[7])
-                    +talk(speakers[8])
-                    
-                    +break('3:35 pm')
-                    
-                    +group('Wild Cards')
-                    +talk(speakers[9])
-                    +talk(speakers[10])
+              +break('10:25 am')
+          
+              +group("The Wonderful World of the AST")
+          
+              +talk(speakers[3])
+              +talk(speakers[4])
+              +talk(speakers[5])
+              +talk(speakers[6])
+          
+              +event('12:20 pm', 'Lunch / Bazaar', 'Outside / Sutter Room', 'Enjoy an authentic San Francisco Food Truck Lunch and join us in the Open Source Bazaar')
+              
+              +group("What they didn't tell you is possible with dev tools.")
+              +talk(speakers[7])
+              +talk(speakers[8])
+          
+              +break('3:35 pm')
+          
+              +group('Wild Cards')
+              +talk(speakers[9])
+              +talk(speakers[10])
 
-            li
-                table
-                    thead
-                        tr
-                            th.datetime June 23
-                            th.day Tuesday
-                            
-                    +event('8:00 am', 'Procedural Caffeine Dispensing', 'Sutter Room')
-                    //- tr
-                    //-     td.datetime 8:00 AM
-                    //-     td.event
-                    //-         h3 Coffee by Blue Bottle
-                    //-         h4 Stutter Room
-                    //-         p I was brought onto the Totem project as a front-end designer and developer by another company to help fulfill the needs of their client.
-                    //-         a(href='#') Link
-                    tr.group
-                        td
-                        td The Regency Ballroom
-                    tr
-                        td.datetime 9:00 AM
-                        td.speaker
-                            img(src="../images/fpo-schedule-speaker.png")
-                            h3 Amanda Glossen
-                            h4 The Struggle of Acceptance
-                            a(href="#")
+          li
+            table
+              +tablehead('June 23', 'Tuesday')
+              
+              +event('8:00 am', 'Caffeine Dispensing', 'Sutter Room', 'Come get your badge, some coffee, and make some new friends')
+          
+              +group('What makes these Javascript Frameworks Tick')
+              +talk(speakers[11])
+              +talk(speakers[12])
+              +talk(speakers[13])
+
+              +break('10:25 am')
+          
+              +group('The Full Stack')
+              +talk(speakers[14])
+              +talk(speakers[15])
+              +talk(speakers[16])
+          
+              +event('12:00 pm', 'Lunch / Bazaar', 'Outside / Sutter Room', 'Moar Foodtruck, Moar Bazaar, Moar Friends!')
+          
+              +group('Respond to these CSS talks!')
+              +talk(speakers[17])
+              +talk(speakers[18])
+              +talk(speakers[18])
+          
+              +break('3:50 pm')
+          
+              +group('The importance of being accessible.')
+              +talk(speakers[19])
+              +talk(speakers[20])
+              +talk(speakers[21])
+              
+              +group('One Last Wildcard.')
+              +talk(speakers[22])
