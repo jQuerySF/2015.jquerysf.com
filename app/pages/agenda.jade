@@ -3,6 +3,41 @@ extends ../layouts/layout.jade
 block vars
     - var title = "Agenda"
 
+mixin talk(speaker)
+  tr
+    td.datetime= speaker.time
+    td.speaker
+      img(src='/images/speakers/' + speaker.image alt=speaker.name)
+      h3= speaker.name
+      h4= speaker.title
+      a(href='/speaker/' + speaker.id + '.html') 
+
+mixin break(time, type)
+  .slot.break.cf
+    span.time= time
+    span.type= type
+
+mixin group(title)
+  tr.group
+    td
+    td= title
+
+mixin event(time, title, room, description)
+  tr
+    td.datetime= time
+    td.event
+      h3= title
+      if (room)
+        h4= room
+      if (description)
+        p= description
+
+mixin break(time)
+  tr
+    td.datetime= time
+    td.event
+      h2 Break
+
 block content
 
     // heading
@@ -16,38 +51,33 @@ block content
                         tr
                             th.datetime June 22
                             th.day Monday
-                    tr
-                        td.datetime 8:00 AM
-                        td.event
-                            h3 Registration
-                            h4 Stutter Room
-                            p I was brought onto the Totem project as a front-end designer and developer by another company to help fulfill the needs of their client.
-                            a(href='#') Link
-                    tr.group
-                        td
-                        td Empathy
+                    +event('8:00 am', 'Registration', 'Sutter Room', 'Come get your badge, some coffee, and make some new friends')
+                    
+                    +group('Empathy')
+                    
+                    +talk(speakers[0])
+                    +talk(speakers[1])
+                    +talk(speakers[2])
 
-                    tr
-                        td.datetime 9:00 AM
-                        td.speaker
-                            img(src="../images/fpo-schedule-speaker.png")
-                            h3 Amanda Glossen
-                            h4 The Struggle of Acceptance
-                            a(href="/speaker/the-struggle-of-acceptance.html")
-
-                    tr
-                        td.datetime 9:30 AM
-                        td.speaker
-                            img(src="../images/fpo-schedule-speaker.png")
-                            h3 Amanda Glossen
-                            h4 The Struggle of Acceptance
-                            a(href="/speaker/another-test-talk.html")
-
-                    tr
-                        td.datetime 10:00 AM
-                        td.event
-                            h2 Break
-
+                    +break('10:25 am')
+                    
+                    +group('Dev Tools')
+                    
+                    +talk(speakers[3])
+                    +talk(speakers[4])
+                    +talk(speakers[5])
+                    +talk(speakers[6])
+                    
+                    +event('12:20 pm', 'Lunch / Bazaar', 'Outside / Sutter Room', 'Enjoy an authentic San Francisco Food Truck Lunch and join us in the Open Source Bazaar')
+                    
+                    +talk(speakers[7])
+                    +talk(speakers[8])
+                    
+                    +break('3:35 pm')
+                    
+                    +group('Wild Cards')
+                    +talk(speakers[9])
+                    +talk(speakers[10])
 
             li
                 table
