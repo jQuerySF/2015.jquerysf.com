@@ -2,11 +2,11 @@
 
 All delegates, speakers, sponsors and volunteers at any event presented by Famo.us are required to agree with the following code of conduct. Organizers will enforce this code throughout the event.
 
-#The Quick Version
+###The Quick Version
 
 jQuery SF, presented by Famo.us, is dedicated to providing a harassment-free experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any event venue, including talks. Event participants violating these rules may be sanctioned or expelled from the event without a refund at the discretion of the conference organizers.
 
-#The Less Quick Version
+###The Less Quick Version
 
 Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
 
