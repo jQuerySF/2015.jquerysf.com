@@ -9,12 +9,14 @@ block content
 
           .column
               img(src="../images/speakers/#{image}")
-              h2 #{name}
-              a(href="https://twitter.com/#{twitter}" target="_blank") @#{twitter}
-              label Biography
-              p #{bio}
+              .content
+                h2 #{name}
+                a(href="https://twitter.com/#{twitter}" target="_blank") @#{twitter}
+                label Biography
+                p #{bio}
 
           .column
+            .content
               label Topic
               h2 #{topic}
               .info

@@ -9,9 +9,7 @@
     height:140px
     background: $colors-speaker-heading-background
 
-section
-  &.speaker
-
+section.speaker
     $bio-column-width = 340px
 
     position:relative
@@ -114,13 +112,33 @@ section
         font:$fonts-speaker-heading
         font-size:36px
 
-  /**
-  * Mobile styles
-  */
-  @media screen and (max-width: $medium-width)
-    &.speaker
-      margin:-140px auto 0
+/**
+* Mobile styles
+*/
+@media screen and (max-width: $medium-width)
+  .container.speaker
+    background:none
 
-      .column, .column:first-child
-        width:100%
-        display:block
+  section.speaker
+    background:none
+    margin:-140px auto 0
+
+    .column
+      h2
+        font-size:24px
+
+    .column, .column:first-child
+      width:100%
+      display:block
+      padding-bottom:20px
+
+    .column:last-child
+      padding:20px 0 10px 0
+      .info
+        margin-top:40px
+        h3
+          font-size:20px
+          margin-top:5px
+
+    .content
+      padding:5px 20px
