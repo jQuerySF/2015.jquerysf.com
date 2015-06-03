@@ -7,11 +7,15 @@ block content
   // Conference values
   include ../partials/values.jade
 
-  // Social cals to action
-  //include ../partials/social.jade
-
   // Speakers section
   include ../partials/speakers.jade
+  
+  section.tickets
+      h2.headline Tickets
+      p
+        |Join us!
+        |We’d love to have you.
+      a.btn(href="https://ti.to/jquerysf/2015") Get Tickets
 
   // Events section
   include ../partials/events.jade
@@ -19,34 +23,6 @@ block content
   // Venue section
   h2.headline Venue
   include ../partials/venue.jade
-
-  // ambassadors section
-  //include ../partials/ambassadors.jade
-
-  // Workshops section
-  //- include ../partials/workshops.jade
-
-
-  // Schedule
-  //- include ../partials/schedule.jade
-
-  // Tickets
-  //include ../partials/tickets.jade
-  section.tickets
-      h2.headline Tickets
-      p
-        |Join us!
-        |We’d love to have you.
-      a.btn(href="/tickets.html") Get Tickets
-
-  // Accessibility and code of conduct section
-  //include ../partials/coc.jade
-
-  // Sponsors section
-  //- include ../partials/sponsors.jade
-
-  // organizers section
-  //include ../partials/organizers.jade
 
 block scripts
   script(src='//maps.googleapis.com/maps/api/js')
