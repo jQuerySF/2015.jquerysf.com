@@ -228,7 +228,7 @@
           "id": "Emily-Stark",
           "image":"estark37.jpg",
           "name": "Emily Stark",
-          "from": "Google Chrome",
+          "from": "Google",
           "twitter": "estark37",
           "bio": "software engineer at @GoogleChrome security",
           "topic": "Full Stack",
@@ -237,6 +237,20 @@
           "day": "Tuesday",
           "title": "TBD",
           "details": "Coming Soon."
+      },
+      {       
+          "id": "Sarah-Frisk",
+          "image":"sarah.jpg",
+          "name": "Sarah Frisk",
+          "from": "Portland Webworks",
+          "twitter": "sarahfrisk",
+          "bio": "I'm a Software Developer at Portland Webworks, a software development firm that focuses on custom web applications for a variety of clients.",
+          "topic": "CSS",
+          "location": "Regency Ballroom",
+          "time": "2:30 pm",
+          "day": "Tuesday",
+          "title": "TBD",
+          "details": "Coming Soon."
       }
-    ]
+  ]
 }
