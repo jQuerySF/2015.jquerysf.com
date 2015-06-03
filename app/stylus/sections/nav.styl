@@ -76,10 +76,11 @@
     .nav-main-list
       width: 100%
       display: none
-      background: black
+      background: white
       position: absolute
       top: 100%
       left: 0
+      margin-top:87px
 
       a
         margin-left: 0
@@ -87,11 +88,12 @@
         display: block
         text-align: left
 
-        &:not(:last-child)
-          border-bottom: 1px solid #222
-
         &:hover
           background: black
+
+        &.btn-ticket
+          margin:8px 30px 15px 30px
+          text-align:center
 
     .reveal-nav-btn
     .reveal-nav-input
@@ -101,5 +103,4 @@
       display: block
 
   @media screen and (max-width: $small-width)
-
     padding: 0 30px

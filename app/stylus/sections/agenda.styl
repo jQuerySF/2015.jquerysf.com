@@ -129,6 +129,10 @@
     .title
       width: calc(100% - 100px)
 
+    ul li
+      &:not(:first-child)
+        margin-top:80px
+
     table
       td.speaker
         h3, h4
@@ -136,16 +140,16 @@
 
       th.day, td.event, td.speaker, tr.group td
         padding-left:25px
-      
+
       th.datetime, th.day, td.datetime
         font-size: 18px
-      
+
       td.event
         h3
           font-size: 22px
         h4
           font-size: 18px
-      
+
       td.speaker
         img
           display: none;
@@ -153,7 +157,7 @@
           font-size: 20px
         h4
           font-size: 18px
-        
+
 
   @media screen and (min-width: $medium-width + 1px)
 
