@@ -141,7 +141,7 @@
           "details": "Coming Soon."
       },
       {
-          "id": "Mikeal Rogers",
+          "id": "Mikeal-Rogers",
           "image":"mikeal.png",
           "name": "Mikeal Rogers",
           "from": "Modulus",
@@ -153,6 +153,90 @@
           "day": "Monday",
           "title": "TBD",
           "details": "Coming Soon."
+      },
+      {
+          "id": "Erik-Bryn",
+          "image":"ebryn.jpg",
+          "name": "Erik Bryn",
+          "from": "Prototypal",
+          "twitter": "ebryn",
+          "bio": "I build amazing things with JavaScript. Ember.js core team. Founder of @weareprototypal: Ember training & consulting from the experts.",
+          "topic": "JavaScript Frameworks",
+          "location": "Regency Ballroom",
+          "time": "9:15 am",
+          "day": "Tuesday",
+          "title": "TBD",
+          "details": "Coming Soon."
+      },
+      {
+          "id": "Martin-Gonto",
+          "image":"mgonto.jpg",
+          "name": "Martin Gonto",
+          "from": "Auth0",
+          "twitter": "mgonto",
+          "bio": "I solved the P vs NP problem. I <3 JS, OSS, Meat and a good Beer in that order. Developer Advocate at @auth0.",
+          "topic": "JavaScript Frameworks",
+          "location": "Regency Ballroom",
+          "time": "9:40 am",
+          "day": "Tuesday",
+          "title": "TBD",
+          "details": "Coming Soon."
+      },
+      {
+          "id": "Pete-Hunt",
+          "image":"floydophone.jpg",
+          "name": "Pete Hunt",
+          "from": "ReactJS",
+          "twitter": "floydophone",
+          "bio": "Ex-FB and Instagram. Currently funemployed and contributing to http://reactjs.org .",
+          "topic": "JavaScript Frameworks",
+          "location": "Regency Ballroom",
+          "time": "10:05 am",
+          "day": "Tuesday",
+          "title": "TBD",
+          "details": "Coming Soon."
+      },
+      {
+          "id": "Zoltan-Olah",
+          "image":"zqzoltan.jpg",
+          "name": "Zoltan Olah",
+          "from": "",
+          "twitter": "zqzoltan",
+          "bio": "Maker of web apps, especially realtime. Climber. Cyclist. Enthusiast. Founder.",
+          "topic": "Full Stack",
+          "location": "Regency Ballroom",
+          "time": "10:45 am",
+          "day": "Tuesday",
+          "title": "TBD",
+          "details": "Coming Soon." 
+      },
+      {
+          "id": "Jade-Wang",
+          "image":"jade.jpg",
+          "name": "Jade Wang",
+          "from": "SandstormIO",
+          "twitter": "qiqing",
+          "bio": "Musician, poet, martial artist, scientist. @SandstormIO, Chez JJ, @MeteorJS, Vannevar Group. Not a religion, just a technique.",
+          "topic": "Full Stack",
+          "location": "Regency Ballroom",
+          "time": "11:10 am",
+          "day": "Tuesday",
+          "title": "TBD",
+          "details": "Coming Soon." 
+      },
+      {       
+          "id": "Emily-Stark",
+          "image":"estark37.jpg",
+          "name": "Emily Stark",
+          "from": "Google Chrome",
+          "twitter": "estark37",
+          "bio": "software engineer at @GoogleChrome security",
+          "topic": "Full Stack",
+          "location": "Regency Ballroom",
+          "time": "11:35 am",
+          "day": "Tuesday",
+          "title": "TBD",
+          "details": "Coming Soon."
       }
-  ]
+    ]
 }
