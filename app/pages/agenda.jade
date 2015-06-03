@@ -23,7 +23,7 @@ mixin group(title)
     td= title
 
 mixin event(time, title, room, description)
-  tr
+  tr.event
     td.datetime= time
     td.event
       h3= title
@@ -33,10 +33,16 @@ mixin event(time, title, room, description)
         p= description
 
 mixin break(time)
-  tr
+  tr.event
     td.datetime= time
     td.event
       h2 Break
+
+mixin tablehead (date, day)
+  thead
+      tr
+          th.datetime= date
+          th.day= day
 
 block content
 
@@ -47,10 +53,7 @@ block content
         ul
             li
                 table
-                    thead
-                        tr
-                            th.datetime June 22
-                            th.day Monday
+                    +tablehead('June 22', 'Monday')
                     +event('8:00 am', 'Registration', 'Sutter Room', 'Come get your badge, some coffee, and make some new friends')
                     
                     +group('Empathy')
@@ -85,13 +88,15 @@ block content
                         tr
                             th.datetime June 23
                             th.day Tuesday
-                    tr
-                        td.datetime 8:00 AM
-                        td.event
-                            h3 Coffee by Blue Bottle
-                            h4 Stutter Room
-                            p I was brought onto the Totem project as a front-end designer and developer by another company to help fulfill the needs of their client.
-                            a(href='#') Link
+                            
+                    +event('8:00 am', 'Procedural Caffeine Dispensing', 'Sutter Room')
+                    //- tr
+                    //-     td.datetime 8:00 AM
+                    //-     td.event
+                    //-         h3 Coffee by Blue Bottle
+                    //-         h4 Stutter Room
+                    //-         p I was brought onto the Totem project as a front-end designer and developer by another company to help fulfill the needs of their client.
+                    //-         a(href='#') Link
                     tr.group
                         td
                         td The Regency Ballroom
