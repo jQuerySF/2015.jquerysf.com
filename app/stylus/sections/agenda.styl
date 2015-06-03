@@ -22,7 +22,7 @@
 
   table
     max-width:800px
-    width: 100%
+    width:100%
     font:$fonts-regular
     margin:0 auto
     text-align:left
@@ -44,7 +44,7 @@
 
     td
       padding-top:30px
-    
+
     td.datetime, td.event
       padding-top:45px
 
@@ -105,12 +105,6 @@
       text-transform:uppercase
       margin-top: 15px
 
-
-
-
-
-
-
   .container
     text-align: left
 
@@ -134,9 +128,19 @@
     .title
       width: calc(100% - 100px)
 
+    table
+      td.speaker
+        h3, h4
+          margin:0
+
+      th.day, td.event, td.speaker, tr.group td
+        padding-left:50px
+
   @media screen and (min-width: $medium-width + 1px)
 
     .time
       width: 150px
     .title
       width: calc(100% - 150px)
+
+
