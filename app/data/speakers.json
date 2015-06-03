@@ -6,13 +6,13 @@
           "name": "Amanda Glosson",
           "from": "Salesforce",
           "twitter": "amandaglosson",
-          "bio": "{$fname} is a {$professionalTitle} who enjoys {$interest1} and {$interest2}.",
+          "bio": " Amanda loves pixels and has been pushing them around screens for over 10 years. Most recently, she's been found pushing them around as a front-end developer at Salesforce.",
           "topic":"Empathy",
           "location":"Regency Ballroom",
           "time":"9:15 am",
           "day":"Monday",
-          "title": "TBD",
-          "details": "coming soon."
+          "title": "Coding With Empathy:\nDevelopers Are People Too",
+          "details": "Companies have entire usability teams focused on designing empathetic interfaces to present to their end users, but how can we as developers foster empathy for one another (and perhaps our future selves) through the code we write? In this talk, we will explore how coding, with a foundation rooted in empathy, can help us write robust, (re)usable software together."
       },
       {
           "id": "Kelly-King",
@@ -118,13 +118,13 @@
           "name": "Rey Bango",
           "from": "Microsoft",
           "twitter": "reybango",
-          "bio": "I love the Web. Microsoft Developer Advocate for web developers and Internet Explorer. Contributing Editor to Smashing Mag. Honey badger. Opinions are mine.",
+          "bio": "Rey is a lover of the web and an advocate for web standards. At Microsoft, he’s focused on helping developers build awesome cross-browser experiences and being a feedback conduit for the community. He’s privileged to be an original member of the jQuery Project Team.",
           "topic": "Browser Developer Tools",
           "location": "Regency Ballroom",
           "time": "3:15 pm",
           "day": "Monday",
-          "title": "TBD",
-          "details": "Coming Soon."
+          "title": "Woah, You Can Test IE & Microsoft Edge on a Mac & Linux?",
+          "details": "OS X and Linux are two very popular operating system choices for web developers but they still want to be able to test Internet Explorer and the new Microsoft Edge browsers. In this talk, we'll discuss the state of browser marketshare, the options available for testing these browsers on OS X & Linux and new tools that offer enhanced testing capabilities for mobile browsers."
       },
       {
           "id": "John-David-Dalton",
