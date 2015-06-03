@@ -137,8 +137,8 @@
         "location": "Regency Ballroom",
         "time": "4:00 pm",
         "day": "Monday",
-        "title": "Getting under the hood of in browser dev tools.",
-        "details": "Coming Soon."
+        "title": "Chrome Developer Tools under the Magnifying Glass",
+        "details": "Browser Developer Tools are a great way to inspect web applications. But how do they work? And how can you build an Inspector for your own App or Framework?\n\nIt turns out that Browser Developer Tools are web applications written in HTML, CSS, and JS and if you know how to build a website you can understand how they work. In this talk, we’ll explore the inner workings of Chrome's Developer Tools and several of the popular framework Inspectors.\n\nAlong the way, we’ll touch on some of DevTools’ hidden power features and by the end, you’ll be able to launch your editor and hack on your favorite DevTools!"
     },
     {
         "id": "Rey-Bango",
