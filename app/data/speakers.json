@@ -202,13 +202,13 @@
         "name": "James Kyle",
         "from": "CloudFlare",
         "twitter": "thejameskyles",
-        "bio": "James Kyle is the coolest. Everyone wishes they were as cool as James Kyle.",
+        "bio": "James is an JavaScript engineer at CloudFlare and a contributor to several open source projects including Babel and Marionette. He's worked as a front end engineer at various startups over the last few years. In his free time he enjoys attending music and comedy shows. James also enjoys making artwork, whether in be sketching in notebooks or photoshop battles on reddit.",
         "topic": "AST / Build",
         "location": "Regency Ballroom",
         "time": "10:05 am",
         "day": "Tuesday",
-        "title": "On the topic of Babel",
-        "details": "Coming Soon."
+        "title": "Compiling JavaScript",
+        "details": "Babel is a compiler for writing next generation JavaScript. Internally it is broken down into a series of transforms that implement new language features. However, while building these transforms, Babel became a really good tool for building transforms. Now, Babel is also a platform for writing next generation tooling."
     },
     {
         "id": "Lin-Clark",
