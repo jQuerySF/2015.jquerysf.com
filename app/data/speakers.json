@@ -305,8 +305,8 @@
         "location": "Regency Ballroom",
         "time": "4:10 pm",
         "day": "Tuesday",
-        "title": "On the topic of considering folks with low vision",
-        "details": "Coming Soon."
+        "title": "A Partially Sighted User's Perspective on Navigating the Digital Landscape.",
+        "details": "Karo will share the dos and don'ts of web and mobile visual design from the user experience of someone who is partially sighted. She will show how she browses the web/navigates the mobile environment and break some stereotypes associated with designing for users with low vision.  She will discuss good/bad practices and provide feedback on how the more challenging interactions could be improved."
     },
     {       
         "id": "Victor-Tsaran",
@@ -319,8 +319,8 @@
         "location": "Regency Ballroom",
         "time": "4:35 pm",
         "day": "Tuesday",
-        "title": "On the subject of Aria",
-        "details": "Coming Soon."
+        "title": "The Modern Web and Accessibility.",
+        "details": "Victor will discuss the fundamentals of developing modern web apps that are both accessible and usable. As part of his talk, Victor will cover ARIA (Accessible Rich Internet Applications) spec, its most useful aspects for web developers, and practical benefit to users of assistive technology."
     },
     {       
         "id": "Jon-Kuperman",
@@ -333,8 +333,8 @@
         "location": "Regency Ballroom",
         "time": "5:00 pm",
         "day": "Tuesday",
-        "title": "On the a11y dev experience.",
-        "details": "Coming Soon."
+        "title": "From Developer to A11y",
+        "details": "Let's talk about Accessibility (a11y) from a developer's point of view. Jon will share his experience entering the world of web accessibility. Then he will talk about the great resources, must read posts and the incredible tools available to make and test accessible web applications."
     },
     {       
         "id": "John-Brown",
