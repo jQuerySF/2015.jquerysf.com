@@ -120,8 +120,8 @@
     float: left
 
   @media screen and (max-width: $medium-width)
-    img
-      display: none;
+    &.content
+      padding: 25px
 
     .time
       width: 100px
@@ -134,7 +134,25 @@
           margin:0
 
       th.day, td.event, td.speaker, tr.group td
-        padding-left:50px
+        padding-left:25px
+      
+      th.datetime, th.day, td.datetime
+        font-size: 18px
+      
+      td.event
+        h3
+          font-size: 22px
+        h4
+          font-size: 18px
+      
+      td.speaker
+        img
+          display: none;
+        h3
+          font-size: 20px
+        h4
+          font-size: 18px
+        
 
   @media screen and (min-width: $medium-width + 1px)
 
