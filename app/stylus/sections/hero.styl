@@ -31,12 +31,20 @@
       margin:0
       font:$fonts-hero-primary
       font-size: 24px
+      
+  @media screen and (min-width: $small-width + 1)
+    a.revel-nav-ticket
+      display: none;
 
   @media screen and (max-width: $medium-width)
+    a.revel-nav-ticket
+      // display: none;
+      
     .container
       img
         width:80vw
         max-width:463px
+    
 
   @media screen and (max-width: $small-width)
 
