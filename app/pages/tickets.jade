@@ -8,6 +8,12 @@ block content
   // heading
   include ../partials/secondary-header.jade
 
+  section#tickets
+
+      p Get your tickets today.
+
+      #{'tito-widget'}.tito-widget(event="jquerysf/2015")
+
   //timer
   section.timer
       h3 Conference Starts In
@@ -16,13 +22,6 @@ block content
           li.hours 00
           li.minutes 00
           li.seconds 00
-
-
-  section#tickets
-
-      p Get your tickets today.
-
-      #{'tito-widget'}.tito-widget(event="jquerysf/2015")
 
 block scripts
     script(src="../js/jquerysf.js" type="application/javascript")
