@@ -230,13 +230,13 @@
         "name": "Yan",
         "from": "A Big Company",
         "twitter": "bcrypt",
-        "bio": "Does stuff for pervasive encryption. Security engineer at Large Tech Company, @EFF Technology Fellow, & @w3ctag member. Formerly @MIT physics.",
+        "bio": "I'm a Security Engineer at Yahoo, a Technology Fellow at EFF, and a member of the W3C Technical Architecture Group. I'm also a core developer of several open source projects like HTTPS Everywhere, Let's Encrypt, and SecureDrop.",
         "topic": "Wildcard",
         "location": "Regency Ballroom",
         "time": "11:10 am",
         "day": "Tuesday",
-        "title": "On the w3c and security",
-        "details": "Coming Soon."
+        "title": "Building Standards for Better Web Security",
+        "details": "Even in 2015, most web apps are vulnerable to well-known attacks like cross-site scripting, cookie hijacking, SQL injection, and password phishing. How will we keep users safe in the future? This talk is about new web features from the W3C that you can (or will soon be able to) use to make your awesome website more secure."
     },
     {
         "id": "John-David-Dalton",
