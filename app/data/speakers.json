@@ -97,6 +97,62 @@
           "day": "Monday",
           "title": "TBD",
           "details": "Coming Soon."
+      },
+      {
+          "id": "Rey-Bango",
+          "image":"rey.jpg",
+          "name": "Rey Bango",
+          "from": "Microsoft",
+          "twitter": "reybango",
+          "bio": "I love the Web. Microsoft Developer Advocate for web developers and Internet Explorer. Contributing Editor to Smashing Mag. Honey badger. Opinions are mine.",
+          "topic": "Browser Developer Tools",
+          "location": "Regency Ballroom",
+          "time": "2:50 pm",
+          "day": "Monday",
+          "title": "TBD",
+          "details": "Coming Soon."
+      },
+      {
+          "id": "Jason-Laster",
+          "image":"jason.jpg",
+          "name": "Jason Laster",
+          "from": "Etsy",
+          "twitter": "jasonlaster11",
+          "bio": "I love building beautiful applications that delight users and developer tools that help make the process more enjoyable.",
+          "topic": "Browser Developer Tools",
+          "location": "Regency Ballroom",
+          "time": "3:15 pm",
+          "day": "Monday",
+          "title": "TBD",
+          "details": "Coming Soon."
+      },
+      {
+          "id": "John-David-Dalton",
+          "image":"jdd.jpg",
+          "name": "John-David Dalton",
+          "from": "Microsoft",
+          "twitter": "jdalton",
+          "bio": "A JavaScript tinkerer, bug fixer, & benchmark runner. Microsoft Edge Web Apps & Frameworks Ecosystem Program Manager @Microsoft. Opinions are my own.",
+          "topic": "Wildcard",
+          "location": "Regency Ballroom",
+          "time": "4:05 pm",
+          "day": "Monday",
+          "title": "TBD",
+          "details": "Coming Soon."
+      },
+      {
+          "id": "Mikeal Rogers",
+          "image":"mikeal.png",
+          "name": "Mikeal Rogers",
+          "from": "Modulus",
+          "twitter": "Mikeal",
+          "bio": "JS Community Organizer. Creator/Curator of NodeConf & JSFest. Evangelist at Modulus.",
+          "topic": "Wildcard",
+          "location": "Regency Ballroom",
+          "time": "4:30 pm",
+          "day": "Monday",
+          "title": "TBD",
+          "details": "Coming Soon."
       }
   ]
 }
