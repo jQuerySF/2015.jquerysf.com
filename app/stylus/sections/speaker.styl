@@ -9,106 +9,118 @@
     height:140px
     background: $colors-speaker-heading-background
 
-section.speaker
+section
+  &.speaker
 
-  $bio-column-width = 340px
+    $bio-column-width = 340px
 
-  position:relative
-  z-index:1
-  margin:-95px auto 0
-  padding:0
-  display:table
-  vertical-align:top
-  text-align:left
-  color:$colors-speaker-foreground
-  max-width:1000px
-
-  .column
-    display:table-cell
+    position:relative
+    z-index:1
+    margin:-95px auto 0
+    padding:0
+    display:table
     vertical-align:top
-    padding-bottom:200px
+    text-align:left
+    color:$colors-speaker-foreground
+    max-width:1000px
 
-    &:first-child
-      width:$bio-column-width
-      background:$colors-speaker-bio-background
-      color:$colors-speaker-bio-foreground
+    .column
+      display:table-cell
+      vertical-align:top
+      padding-bottom:200px
 
-      img
+      &:first-child
         width:$bio-column-width
-        height:$bio-column-width
-
-      h2
-        margin-top:45px
-        margin-bottom:30px
-        font:$fonts-speaker-bio-heading
-        font-size:36px
-        width:50%
-
-      a
-        display:block
-        margin-bottom:50px
-        font:$fonts-speaker-bio-subheading
-        font-size:24px
+        background:$colors-speaker-bio-background
         color:$colors-speaker-bio-foreground
-        outline:none
 
-      label
-        font:$fonts-speaker-bio-label
-        font-size:14px
-        padding:5px 8px
-        margin-bottom:20px
-        text-transform:uppercase
-        display:inline-block
-        color:$colors-speaker-foreground
-        background:$colors-speaker-heading-background
+        img
+          width:$bio-column-width
+          height:$bio-column-width
 
-      p
-        font:$fonts-speaker-bio-body
-        font-size:14px
-        line-height:28px
-        margin-right:30px
-        color:$colors-speaker-bio-foreground
-        white-space:pre-wrap
+        h2
+          margin-top:45px
+          margin-bottom:30px
+          font:$fonts-speaker-bio-heading
+          font-size:36px
+          width:50%
 
-    &:last-child
-      padding-left:45px
-
-      .info
-        margin-top:70px
+        a
+          display:block
+          margin-bottom:50px
+          font:$fonts-speaker-bio-subheading
+          font-size:24px
+          color:$colors-speaker-bio-foreground
+          outline:none
 
         label
-          font:$fonts-speaker-details-label
+          font:$fonts-speaker-bio-label
           font-size:14px
-          color:#BEBFC7
+          padding:5px 8px
+          margin-bottom:20px
           text-transform:uppercase
-
-          &.details
-            display:inline-block
-            margin-top:25px
-
-        h3
-          margin-bottom:25px
-          font:$fonts-speaker-details-value
-          font-size:36px
+          display:inline-block
+          color:$colors-speaker-foreground
+          background:$colors-speaker-heading-background
 
         p
-          margin-top:30px
-          font:$fonts-speaker-details-value
+          font:$fonts-speaker-bio-body
           font-size:14px
           line-height:28px
+          margin-right:30px
+          color:$colors-speaker-bio-foreground
           white-space:pre-wrap
 
-        .horizontal-group
-          display:table
-          span
-            display:table-cell
-            &:last-child
-              padding-left:60px
-    label
-      font:$fonts-speaker-heading-label
-      font-size:14px
-      text-transform:uppercase
+      &:last-child
+        padding-left:45px
 
-    h2
-      font:$fonts-speaker-heading
-      font-size:36px
+        .info
+          margin-top:70px
+
+          label
+            font:$fonts-speaker-details-label
+            font-size:14px
+            color:#BEBFC7
+            text-transform:uppercase
+
+            &.details
+              display:inline-block
+              margin-top:25px
+
+          h3
+            margin-bottom:25px
+            font:$fonts-speaker-details-value
+            font-size:36px
+
+          p
+            margin-top:30px
+            font:$fonts-speaker-details-value
+            font-size:14px
+            line-height:28px
+            white-space:pre-wrap
+
+          .horizontal-group
+            display:table
+            span
+              display:table-cell
+              &:last-child
+                padding-left:60px
+      label
+        font:$fonts-speaker-heading-label
+        font-size:14px
+        text-transform:uppercase
+
+      h2
+        font:$fonts-speaker-heading
+        font-size:36px
+
+  /**
+  * Mobile styles
+  */
+  @media screen and (max-width: $medium-width)
+    &.speaker
+      margin:-140px auto 0
+
+      .column, .column:first-child
+        width:100%
+        display:block
