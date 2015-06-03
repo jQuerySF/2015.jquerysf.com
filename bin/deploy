@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
 npm install
-npm run build
 
-aws s3 --region=us-west-2 --acl=public-read cp --recursive ./public s3://jquerysf.com/ 
+aws s3 --region=us-west-2 --acl=public-read cp --recursive ./build s3://jquerysf.com/ 
