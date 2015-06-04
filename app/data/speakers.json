@@ -179,8 +179,8 @@
         "location": "Regency Ballroom",
         "time": "9:15 am",
         "day": "Tuesday",
-        "title": "Practical Uses of an AST: Esprima and JSCS",
-        "details": "Coming Soon."
+        "title": "JavaScript Syntax Tree Demystified",
+        "details": "The structure of any valid JavaScript program can be represented by a syntax tree. In this talk, we will cover the basics of syntax parsing process using Esprima and the popular abstract syntax tree format ESTree. Among other benefits, such a syntax tree can be used to perform any syntactical analysis on the code. This talk will continue to cover the use of Esprima in JSCS, a popular tool to check and enforce coding style for JavaScript program."
     },
     {
         "id": "substack",
