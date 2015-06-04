@@ -12,7 +12,8 @@
         "time": "9:15 am",
         "day": "Monday",
         "title": "On the topic of Ember.",
-        "details": "Coming Soon."
+        "details": "Coming Soon.",
+        "fact": "core contributor to Ember"
     },
     {
         "id": "Martin-Gonto",
@@ -26,7 +27,8 @@
         "time": "9:40 am",
         "day": "Monday",
         "title": "Angular 2: The new horizon",
-        "details": "Everything we used to know (and love?) from Angular 1 has died. No more $scope, services, factories and controllers. Is it good that they died? Why? In this talk, I'll answer those questions and we'll learn all of the key concepts of Angular 2 with a Live Coding demo! Be aware, this session isn't for those faint-hearted."
+        "details": "Everything we used to know (and love?) from Angular 1 has died. No more $scope, services, factories and controllers. Is it good that they died? Why? In this talk, I'll answer those questions and we'll learn all of the key concepts of Angular 2 with a Live Coding demo! Be aware, this session isn't for those faint-hearted.",
+        "fact": "creator of restangular"
     },
     {
         "id": "Pete-Hunt",
@@ -40,7 +42,8 @@
         "time": "10:05 am",
         "day": "Monday",
         "title": "On the topic of React.",
-        "details": "Coming Soon."
+        "details": "Coming Soon.",
+        "fact": "original contributor to React"
     },
     {
         "id": "Zoltan-Olah",
@@ -54,7 +57,8 @@
         "time": "10:45 am",
         "day": "Monday",
         "title": "Demystifying Meteor.",
-        "details": "Coming Soon." 
+        "details": "Coming Soon.",
+        "fact": "meteor expert"
     },
     {
         "id": "Jade-Wang",
@@ -68,7 +72,8 @@
         "time": "11:10 am",
         "day": "Monday",
         "title": "On the topic of Sandstorm.io",
-        "details": "Coming Soon." 
+        "details": "Coming Soon.",
+        "fact": "co-founder of Sandstorm.io"
     },
     {       
         "id": "Emily-Stark",
@@ -82,7 +87,8 @@
         "time": "11:35 am",
         "day": "Monday",
         "title": "Running a secure site: why TLS matters.",
-        "details": "2015 is the year of TLS on the web. In this talk I'll explain why you should run a secure site (even if you think you don't need to or can't afford to) and how to get set up with TLS. I'll go over common TLS configuration pitfalls and how to avoid them, as well as some new cutting-edge features that you can use to provide a secure experience for your users."
+        "details": "2015 is the year of TLS on the web. In this talk I'll explain why you should run a secure site (even if you think you don't need to or can't afford to) and how to get set up with TLS. I'll go over common TLS configuration pitfalls and how to avoid them, as well as some new cutting-edge features that you can use to provide a secure experience for your users.",
+        "fact": "security expert"
     },
     {
         "id": "Amanda-Glosson",
@@ -96,7 +102,8 @@
         "time":"2:30 pm",
         "day":"Monday",
         "title": "Coding With Empathy:\nDevelopers Are People Too",
-        "details": "Companies have entire usability teams focused on designing empathetic interfaces to present to their end users, but how can we as developers foster empathy for one another (and perhaps our future selves) through the code we write? In this talk, we will explore how coding, with a foundation rooted in empathy, can help us write robust, (re)usable software together."
+        "details": "Companies have entire usability teams focused on designing empathetic interfaces to present to their end users, but how can we as developers foster empathy for one another (and perhaps our future selves) through the code we write? In this talk, we will explore how coding, with a foundation rooted in empathy, can help us write robust, (re)usable software together.",
+        "fact": "creator of eightbysixteen"
     },
     {
         "id": "Kelly-King",
@@ -110,7 +117,8 @@
         "time": "2:55 pm",
         "day": "Monday",
         "title": "Experimentation, Tone, and Emotional Design",
-        "details": "Coming Soon."
+        "details": "Coming Soon.",
+        "fact": "creator of bootstrapify"
     },
     {
         "id": "John-Resig",
@@ -124,7 +132,8 @@
         "time": "3:20 pm",
         "day": "Monday",
         "title": "On the topic of Developer Empathy",
-        "details": "Coming Soon."
+        "details": "Coming Soon.",
+        "fact": "creator of jQuery"
     },
     {
         "id": "Jason-Laster",
@@ -138,7 +147,8 @@
         "time": "4:00 pm",
         "day": "Monday",
         "title": "Chrome Developer Tools under the Magnifying Glass",
-        "details": "Browser Developer Tools are a great way to inspect web applications. But how do they work? And how can you build an Inspector for your own App or Framework?\n\nIt turns out that Browser Developer Tools are web applications written in HTML, CSS, and JS and if you know how to build a website you can understand how they work. In this talk, we’ll explore the inner workings of Chrome's Developer Tools and several of the popular framework Inspectors.\n\nAlong the way, we’ll touch on some of DevTools’ hidden power features and by the end, you’ll be able to launch your editor and hack on your favorite DevTools!"
+        "details": "Browser Developer Tools are a great way to inspect web applications. But how do they work? And how can you build an Inspector for your own App or Framework?\n\nIt turns out that Browser Developer Tools are web applications written in HTML, CSS, and JS and if you know how to build a website you can understand how they work. In this talk, we’ll explore the inner workings of Chrome's Developer Tools and several of the popular framework Inspectors.\n\nAlong the way, we’ll touch on some of DevTools’ hidden power features and by the end, you’ll be able to launch your editor and hack on your favorite DevTools!",
+        "fact": "marionettejs contributor"
     },
     {
         "id": "Rey-Bango",
@@ -152,7 +162,8 @@
         "time": "4:25 pm",
         "day": "Monday",
         "title": "Woah, You Can Test IE & Microsoft Edge on a Mac & Linux?",
-        "details": "OS X and Linux are two very popular operating system choices for web developers but they still want to be able to test Internet Explorer and the new Microsoft Edge browsers. In this talk, we'll discuss the state of browser marketshare, the options available for testing these browsers on OS X & Linux and new tools that offer enhanced testing capabilities for mobile browsers."
+        "details": "OS X and Linux are two very popular operating system choices for web developers but they still want to be able to test Internet Explorer and the new Microsoft Edge browsers. In this talk, we'll discuss the state of browser marketshare, the options available for testing these browsers on OS X & Linux and new tools that offer enhanced testing capabilities for mobile browsers.",
+        "fact": "Microsoft Dev Advocate"
     },
     {
         "id": "Mikeal-Rogers",
@@ -166,7 +177,8 @@
         "time": "4:50 pm",
         "day": "Monday",
         "title": "On the merging of node and io",
-        "details": "Coming Soon."
+        "details": "Coming Soon.",
+        "fact": "pronounced Michael"
     },
     {
         "id": "Ariya-Hidayat",
@@ -180,7 +192,8 @@
         "time": "9:15 am",
         "day": "Tuesday",
         "title": "JavaScript Syntax Tree Demystified",
-        "details": "The structure of any valid JavaScript program can be represented by a syntax tree. In this talk, we will cover the basics of syntax parsing process using Esprima and the popular abstract syntax tree format ESTree. Among other benefits, such a syntax tree can be used to perform any syntactical analysis on the code. This talk will continue to cover the use of Esprima in JSCS, a popular tool to check and enforce coding style for JavaScript program."
+        "details": "The structure of any valid JavaScript program can be represented by a syntax tree. In this talk, we will cover the basics of syntax parsing process using Esprima and the popular abstract syntax tree format ESTree. Among other benefits, such a syntax tree can be used to perform any syntactical analysis on the code. This talk will continue to cover the use of Esprima in JSCS, a popular tool to check and enforce coding style for JavaScript program.",
+        "fact": "creator of esprima"
     },
     {
         "id": "substack",
@@ -194,7 +207,8 @@
         "time": "9:40 am",
         "day": "Tuesday",
         "title": "What can you do with an AST? A whole lot.",
-        "details": "Most of the things you can do are terrible hacks but sometimes there is no other way. This talk will cover some applications of ASTs to solve problems when there is no other way. \nModules covered:\n\n* browserify\n* falafel\n* coverify\n* insert-module-globals\n* static-module\n* brfs\n* glslify\n* static-eval\n* live-patch"
+        "details": "Most of the things you can do are terrible hacks but sometimes there is no other way. This talk will cover some applications of ASTs to solve problems when there is no other way. \nModules covered:\n\n* browserify\n* falafel\n* coverify\n* insert-module-globals\n* static-module\n* brfs\n* glslify\n* static-eval\n* live-patch",
+        "fact": "creator of browserify"
     },
     {
         "id": "James-Kyle",
@@ -208,7 +222,8 @@
         "time": "10:05 am",
         "day": "Tuesday",
         "title": "Compiling JavaScript",
-        "details": "Babel is a compiler for writing next generation JavaScript. Internally it is broken down into a series of transforms that implement new language features. However, while building these transforms, Babel became a really good tool for building transforms. Now, Babel is also a platform for writing next generation tooling."
+        "details": "Babel is a compiler for writing next generation JavaScript. Internally it is broken down into a series of transforms that implement new language features. However, while building these transforms, Babel became a really good tool for building transforms. Now, Babel is also a platform for writing next generation tooling.",
+        "fact": "core contributor to babel"
     },
     {
         "id": "Lin-Clark",
@@ -222,7 +237,8 @@
         "time": "10:30 am",
         "day": "Tuesday",
         "title": "Putting it all together",
-        "details": "Using a variety of tools including Browserify, Babel, jQuery, and npm we are going to build a reusable widget!"
+        "details": "Using a variety of tools including Browserify, Babel, jQuery, and npm we are going to build a reusable widget!",
+        "fact": "dev* at npm"
     },
     {
         "id": "Yan",
@@ -236,7 +252,8 @@
         "time": "11:10 am",
         "day": "Tuesday",
         "title": "Building Standards for Better Web Security",
-        "details": "Even in 2015, most web apps are vulnerable to well-known attacks like cross-site scripting, cookie hijacking, SQL injection, and password phishing. How will we keep users safe in the future? This talk is about new web features from the W3C that you can (or will soon be able to) use to make your awesome website more secure."
+        "details": "Even in 2015, most web apps are vulnerable to well-known attacks like cross-site scripting, cookie hijacking, SQL injection, and password phishing. How will we keep users safe in the future? This talk is about new web features from the W3C that you can (or will soon be able to) use to make your awesome website more secure.",
+        "fact": "w3c tag member"
     },
     {
         "id": "John-David-Dalton",
@@ -250,7 +267,8 @@
         "time": "11:35 am",
         "day": "Tuesday",
         "title": "You do what with Continuous Integration? Or maybe something else!",
-        "details": "Coming Soon."
+        "details": "Coming Soon.",
+        "fact": "creator of lodash"
     },
     {       
         "id": "Sarah-Frisk",
@@ -264,7 +282,8 @@
         "time": "2:30 pm",
         "day": "Tuesday",
         "title": "Chassis: The CSS Awakens",
-        "details": "Best Practices While Building a CSS Framework."
+        "details": "Best Practices While Building a CSS Framework.",
+        "fact": "project lead chassis CSS"
     },
     {       
         "id": "Mark-Otto",
@@ -278,7 +297,8 @@
         "time": "3:05 pm",
         "day": "Tuesday",
         "title": "On the topic of Bootstrap",
-        "details": "Coming Soon."
+        "details": "Coming Soon.",
+        "fact": "co-creator of bootstrap"
     },
     {       
         "id": "Brandon-Arnold",
@@ -292,7 +312,8 @@
         "time": "3:30 pm",
         "day": "Tuesday",
         "title": "On the topic of Zurb Foundation",
-        "details": "Coming Soon."
+        "details": "Coming Soon.",
+        "fact": "zurb foundation lead"
     },
     {       
         "id": "Karo-Caran",
@@ -306,7 +327,8 @@
         "time": "4:10 pm",
         "day": "Tuesday",
         "title": "A Partially Sighted User's Perspective on Navigating the Digital Landscape.",
-        "details": "Karo will share the dos and don'ts of web and mobile visual design from the user experience of someone who is partially sighted. She will show how she browses the web/navigates the mobile environment and break some stereotypes associated with designing for users with low vision.  She will discuss good/bad practices and provide feedback on how the more challenging interactions could be improved."
+        "details": "Karo will share the dos and don'ts of web and mobile visual design from the user experience of someone who is partially sighted. She will show how she browses the web/navigates the mobile environment and break some stereotypes associated with designing for users with low vision.  She will discuss good/bad practices and provide feedback on how the more challenging interactions could be improved.",
+        "fact": "accessibility expert"
     },
     {       
         "id": "Victor-Tsaran",
@@ -320,7 +342,8 @@
         "time": "4:35 pm",
         "day": "Tuesday",
         "title": "The Modern Web and Accessibility.",
-        "details": "Victor will discuss the fundamentals of developing modern web apps that are both accessible and usable. As part of his talk, Victor will cover ARIA (Accessible Rich Internet Applications) spec, its most useful aspects for web developers, and practical benefit to users of assistive technology."
+        "details": "Victor will discuss the fundamentals of developing modern web apps that are both accessible and usable. As part of his talk, Victor will cover ARIA (Accessible Rich Internet Applications) spec, its most useful aspects for web developers, and practical benefit to users of assistive technology.",
+        "fact": "accessibility expert"
     },
     {       
         "id": "Jon-Kuperman",
@@ -334,7 +357,8 @@
         "time": "5:00 pm",
         "day": "Tuesday",
         "title": "From Developer to A11y",
-        "details": "Let's talk about Accessibility (a11y) from a developer's point of view. Jon will share his experience entering the world of web accessibility. Then he will talk about the great resources, must read posts and the incredible tools available to make and test accessible web applications."
+        "details": "Let's talk about Accessibility (a11y) from a developer's point of view. Jon will share his experience entering the world of web accessibility. Then he will talk about the great resources, must read posts and the incredible tools available to make and test accessible web applications.",
+        "fact": "accessibility expert"
     },
     {       
         "id": "John-Brown",
@@ -348,7 +372,8 @@
         "time": "5:25 pm",
         "day": "Tuesday",
         "title": "On art + code + math",
-        "details": "Coming Soon."
+        "details": "Coming Soon.",
+        "fact": "swiss army developer"
     }
   ]
 }
