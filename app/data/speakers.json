@@ -81,7 +81,7 @@
         "location": "Regency Ballroom",
         "time": "11:35 am",
         "day": "Monday",
-        "title": "Running a secure site: why does TLS matter.",
+        "title": "Running a secure site: why TLS matters.",
         "details": "2015 is the year of TLS on the web. In this talk I'll explain why you should run a secure site (even if you think you don't need to or can't afford to) and how to get set up with TLS. I'll go over common TLS configuration pitfalls and how to avoid them, as well as some new cutting-edge features that you can use to provide a secure experience for your users."
     },
     {
