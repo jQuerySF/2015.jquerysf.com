@@ -51,13 +51,13 @@
         "name": "Zoltan Olah",
         "from": "",
         "twitter": "zqzoltan",
-        "bio": "Maker of web apps, especially realtime. Climber. Cyclist. Enthusiast. Founder.",
+        "bio": "Zoltan Olah is the lead architect and co-founder at Percolate Studio - a San Francisco digital agency specializing in frontend design/ux/engineering. The studio uses tools like Meteor, Famo.us, Nodejs and Swift to explore the leading edge and build captivating experiences for clients.",
         "topic": "Full Stack",
         "location": "Regency Ballroom",
         "time": "10:45 am",
         "day": "Monday",
         "title": "Demystifying Meteor.",
-        "details": "Coming Soon.",
+        "details": "Percolate Studio is Meteor’s earliest adopter. We’ve had the opportunity to deploy and scale countless productions applications for our clients. Along the way we’ve experienced and overcome many of the rough edges of a rapidly maturing framework.\n\nWhile the concepts fundamental to Meteor can be initially confusing, they’re incredibly powerful when mastered. In this talk, I’ll demystify the framework and show how we leverage Meteor to be more productive and deliver compelling realtime experiences.",
         "fact": "meteor expert"
     },
     {
@@ -71,7 +71,7 @@
         "location": "Regency Ballroom",
         "time": "11:10 am",
         "day": "Monday",
-        "title": "On the topic of Sandstorm.io",
+        "title": "Sandstorm.io: one-click, deploy anywhere.",
         "details": "Coming Soon.",
         "fact": "co-founder of Sandstorm.io"
     },
