@@ -7,9 +7,9 @@
     "start": "npm run build && serve build/",
     "dev": "serve build/ & npm run watch",
     "test": "npm run build",
-    "watch": "nodemon --ignore node_modules/ --ignore ./build/ --ignore ./public/generated/ -e js,json,jade,styl,md --exec 'npm run build'",
+    "watch": "nodemon --ignore node_modules/ --ignore ./build/ -e js,json,jade,styl,md,jpg,png,js,css --exec 'npm run build'",
     "build": "npm run copy-public && ./bin/buildSpeakers && npm run build-jade && npm run build-stylus",
-    "copy-public": "rsync -rav --exclude=generated/ public/ build/",
+    "copy-public": "cp -r public/ build/",
     "build-jade": "jade ./app/pages -O ./app/data/speakers.json -o ./build/",
     "build-stylus": "mkdir -p ./build/css/ && stylus ./app/stylus/main.styl -o ./build/css/main.css",
     "prepublish": "npm run build"
