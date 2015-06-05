@@ -1,0 +1,35 @@
+extends ./layout.jade
+
+block content
+  .container.speaker
+
+      .stripe
+
+      section.speaker
+
+          .column.speaker-info
+              img(src="../images/speakers/#{speaker.image}")
+              span.details
+                h2 #{speaker.name}
+                a.twitter(href="https://twitter.com/#{speaker.twitter}" target="_blank") @#{speaker.twitter}
+                label Biography
+                != md(speaker.bio)
+
+          .column
+            .content
+              label Topic
+              h2 #{speaker.topic}
+              .info
+                  label Location
+                  h3 #{speaker.location}
+                  div.horizontal-group
+                      span
+                          label Time
+                          h3 #{speaker.time}
+                      span
+                          label Day
+                          h3 #{speaker.day}
+                  label Title
+                  h3 #{speaker.title}
+                  label.details Details
+                  != md(speaker.details)

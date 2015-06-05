@@ -10,6 +10,7 @@ var jade = require('jade');
 var path = require('path');
 var mkdirp = require('mkdirp');
 var moment = require('moment');
+var md = require('marked');
 
 // internal modules
 var speakers = require('../app/data/speakers.json');
@@ -19,7 +20,7 @@ var basePath = path.resolve(__dirname, '..', 'build', 'speaker');
 var generated = path.resolve(__dirname, '..', 'public', 'generated');
 
 // read layout from disk
-var speakerLayout = path.resolve(__dirname, '..', 'app', 'pages', 'speaker', 'speaker.jade')
+var speakerLayout = path.resolve(__dirname, '..', 'app', 'layouts', 'speaker.jade')
 
 function buildSpeakerPage(speaker, done) {
   var outPath = path.join(basePath, speaker.id + '.html');
@@ -29,7 +30,10 @@ function buildSpeakerPage(speaker, done) {
     filename: speakerLayout
   });
   
-  fs.writeFile(outPath, template(speaker), done);
+  fs.writeFile(outPath, template({
+    speaker: speaker,
+    md: md
+  }), done);
 }
 
 function buildSpeakerPages(done) {

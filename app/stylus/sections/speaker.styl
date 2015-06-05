@@ -48,12 +48,14 @@ section.speaker
           width:50%
 
         a
-          display:block
-          margin-bottom:50px
+          &.twitter
+            display:block
+            margin-bottom:50px
+            font-size:24px
           font:$fonts-speaker-bio-subheading
-          font-size:24px
           color:$colors-speaker-bio-foreground
           outline:none
+        
 
         label
           font:$fonts-speaker-bio-label
@@ -155,3 +157,6 @@ section.speaker
 
     .content
       padding:5px 20px
+
+    .column.speaker-info
+      padding: 15px
