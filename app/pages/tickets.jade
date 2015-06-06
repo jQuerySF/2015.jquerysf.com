@@ -14,19 +14,4 @@ block content
 
       #{'tito-widget'}.tito-widget(event="jquerysf/2015")
 
-  //timer
-  section.timer
-      h3 Conference Starts In
-      ul#countdown
-          li.days 00
-          li.hours 00
-          li.minutes 00
-          li.seconds 00
 
-block scripts
-    script(src="../js/jquerysf.js" type="application/javascript")
-    script.
-        (function() {
-            CountdownTimer = new jQuerySF.CountdownTimer("countdown");
-            CountdownTimer.start(new Date("2015-06-22"));
-        })();
