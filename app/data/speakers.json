@@ -72,7 +72,7 @@
         "time": "11:10 am",
         "day": "Monday",
         "title": "Sandstorm.io: one-click, deploy anywhere.",
-        "details": "Coming Soon.",
+        "details": "Ever wanted to try out an open source app but didn't want to spend an afternoon messing with config files? Made an internal app for your team? Or a hobby side project? It can be as easy to deploy as installing an app on your phone. In this session, I will live demo how to package a Meteor app for one-click deployment using Sandstorm.io, as well as how to make your app available to end users in the App Market.\n\nDemo: https://demo.sandstorm.io",
         "fact": "co-founder of Sandstorm.io"
     },
     {       
