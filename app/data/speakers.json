@@ -36,13 +36,13 @@
         "name": "Pete Hunt",
         "from": "ReactJS",
         "twitter": "floydophone",
-        "bio": "Ex-FB and Instagram. Currently funemployed and contributing to http://reactjs.org .",
+        "bio": " One of the original members of the React team, now working on a startup!",
         "topic": "JavaScript Frameworks",
         "location": "Regency Ballroom",
         "time": "10:05 am",
         "day": "Monday",
-        "title": "On the topic of React.",
-        "details": "Coming Soon.",
+        "title": "Bring React to an existing app.",
+        "details": "This talk will cover how we can embed jQuery plugins inside of a React app, and React apps inside of jQuery plugins",
         "fact": "core contributor to React"
     },
     {
