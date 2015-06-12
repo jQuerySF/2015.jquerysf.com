@@ -281,8 +281,8 @@
         "location": "Regency Ballroom",
         "time": "2:30 pm",
         "day": "Tuesday",
-        "title": "Chassis: The CSS Awakens",
-        "details": "Best Practices While Building a CSS Framework.",
+        "title": "Chassis: The CSS Awakens - Best Practices While Building a CSS Framework.",
+        "details": "JavaScript frameworks are here to stay. Where there once was a clear divide between server side logic and the mostly static front end, we’re now seeing more application logic finding its way to the client side. Traditional backend developers have found themselves not only coding application logic in JavaScript, but having to deal with HTML and CSS as well.  \n\nTo avoid dealing with HTML or CSS too closely, developers often turn to a CSS framework. Unfortunately, this approach comes with its own set of issues including obvious templating and opinionated/bloated markup that is enforced by the cascading part of CSS. While this can be useful in prototyping an application, it can make it difficult to restyle and rebrand later. Changing the markup doesn’t help either, because that can end up breaking JavaScript functionality.\n\nThis talk covers the lessons learned and best practices established while building Chassis, the new CSS framework coming from the jQuery Foundation. Developed by a group of JavaScript and CSS experts from both the  jQuery Foundation and around the web, Chassis endeavours to make front end development easier for both the people writing the application logic and those who are styling it. With a focus on standards, performance, accessibility, flexibility, and modularity, Chassis seeks to break the mold for how we look at integrating CSS into our projects.",
         "fact": "project lead chassis CSS"
     },
     {       
