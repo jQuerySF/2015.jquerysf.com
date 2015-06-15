@@ -131,8 +131,8 @@
         "location": "Regency Ballroom",
         "time": "3:20 pm",
         "day": "Monday",
-        "title": "Experimentation, Tone, and Emotional Design",
-        "details": "Coming Soon.",
+        "title": "Experimentation and Emotional Design",
+        "details": "Great design can be used to make websites more fun, make difficult tasks feel easier, and establish a long term connection with our users. However, it can be hard to know which playful changes will delight users, and which will drive them away. Let’s explore how we can use the power of experimentation frameworks and A/B testing to make sure we only ship successful changes. We’ll cover some examples of A/B tests, and discuss the potential drawbacks of relying on quantitative data, including the effect on our users and our product direction. Finally, we’ll look at the field of emotional design, and how we can use those insights to make better changes for our users.",
         "fact": "creator of bootstrapify"
     },
     {       
