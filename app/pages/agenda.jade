@@ -12,7 +12,8 @@ mixin talk(speaker)
     td.speaker
       img(src='/images/speakers/' + speaker.image alt=speaker.name)
       h3= speaker.name
-      h4= speaker.title
+      if (!speaker.secondary)
+        h4= speaker.title
       a(href='/speaker/' + speaker.id + '.html')
 
 mixin break(time, type)
