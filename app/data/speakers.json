@@ -291,13 +291,13 @@
         "name": "Mark Otto",
         "from": "Github",
         "twitter": "mdo",
-        "bio": "Currently designing at GitHub. Creator of Bootstrap. Previously at Twitter. Huge nerd.",
+        "bio": "Mark is co-creator of Bootstrap and works at GitHub. He once designed Britney Spears’ website, plays a lot of Destiny, and is a huge nerd.",
         "topic": "CSS",
         "location": "Regency Ballroom",
         "time": "3:05 pm",
         "day": "Tuesday",
-        "title": "On the topic of Bootstrap",
-        "details": "Coming Soon.",
+        "title": "@mdo-ular CSS",
+        "details": "Much of the discussion around CSS has focused on immutable rules just for writing CSS classes, but this spotlight feels rather shortsighted. Instead, let’s talk about writing better CSS with fewer, more flexible guidelines that help put the focus on what’s between the curly braces.",
         "fact": "co-creator of bootstrap"
     },
     {       
