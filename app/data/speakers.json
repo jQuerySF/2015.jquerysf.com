@@ -180,6 +180,21 @@
         "details": "Victor will discuss the fundamentals of developing modern web apps that are both accessible and usable. As part of his talk, Victor will cover ARIA (Accessible Rich Internet Applications) spec, its most useful aspects for web developers, and practical benefit to users of assistive technology.",
         "fact": "accessibility expert"
     },
+    {       
+        "id": "Steve-Newcomb",
+        "image":"steve.jpg",
+        "name": "Steve Newcomb",
+        "from": "Famous",
+        "twitter": "stevenewcomb",
+        "topic": "Key Note",
+        "location": "Regency Ballroom",
+        "time": "5:15 pm",
+        "day": "Monday",
+        "bio": "Steve is the founder and CEO of Famous Industries and sites on the Board of Directors of the Node.js Foundation and the jQuery Foundation.  He is also the founder of Powerset which became part of Microsoft Bing.",
+        "title": "JavaScript State of the Union",
+        "details": "Coming Soon.",
+        "fact": "Founder of Famous"
+    },
     {
         "id": "Ariya-Hidayat",
         "image":"ariya.jpg",
