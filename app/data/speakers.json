@@ -116,8 +116,8 @@
         "location": "Regency Ballroom",
         "time": "2:55 pm",
         "day": "Monday",
-        "title": "On the topic of Developer Empathy",
-        "details": "Coming Soon.",
+        "title": "User-centric Development in the Early Days of jQuery",
+        "details": "In the first couple years of jQuery's development it was just one of many JavaScript libraries. The attention that was paid to the potential users of jQuery, attempting to empathize with how they they were developing applications, allowed jQuery to better connect with a greater number of devs. This talk will explore the ways in which this process took place and what the ramifications were of having a user-centric model for open source development.",
         "fact": "creator of jQuery"
     },
     {
