@@ -10,11 +10,14 @@ mixin talk(speaker)
     else
       td.datetime
     td.speaker
-      img(src='/images/speakers/' + speaker.image alt=speaker.name)
-      h3= speaker.name
-      if (!speaker.secondary)
-        h4= speaker.title
       a(href='/speaker/' + speaker.id + '.html')
+        img(src='/images/speakers/' + speaker.image alt=speaker.name)
+      a(href='/speaker/' + speaker.id + '.html')
+        h3= speaker.name
+      if (!speaker.secondary)
+        a(href='/speaker/' + speaker.id + '.html')
+          h4= speaker.title
+      a.cta(href='/speaker/' + speaker.id + '.html')
 
 mixin break(time, type)
   .slot.break.cf
