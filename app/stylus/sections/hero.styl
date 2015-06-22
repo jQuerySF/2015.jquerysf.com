@@ -10,6 +10,19 @@
   background-size: cover
   color: $colors-hero-foreground-primary
 
+  .caption-link
+    margin-top: 2em
+
+    a
+      color: white
+      font-size: 20px
+
+  .stream-link
+    display: none
+
+  iframe
+    margin-top: 75px
+
 
   .container
     font-size:24px
@@ -47,6 +60,15 @@
     
 
   @media screen and (max-width: $small-width)
+    .stream-link
+      display: block
+      margin-top: 150px
+      a
+        color: white
+        font-size: 30px
+
+    iframe
+      display: none
 
     min-height: 500px
 

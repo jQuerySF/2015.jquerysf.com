@@ -7,7 +7,7 @@
     "start": "npm run build && serve build/",
     "dev": "serve build/ & npm run watch",
     "test": "npm run build",
-    "watch": "nodemon --ignore node_modules/ --ignore ./build/ -e js,json,jade,styl,md,jpg,png,js,css --exec 'npm run build'",
+    "watch": "nodemon --ignore node_modules/ --ignore ./build/ -e js,json,jade,styl,md,jpg,png,js,css,html --exec 'npm run build'",
     "build": "npm run copy-public && ./bin/buildSpeakers && npm run build-jade && npm run build-stylus",
     "copy-public": "cp -r public/ build/",
     "build-jade": "jade ./app/pages -O ./app/data/speakers.json -o ./build/",
